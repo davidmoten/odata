@@ -89,7 +89,7 @@
                     "x-openType": true,
                     "properties": {
                         "Loc": {
-                            "$ref": "https://tools.oasis-open.org/version-control/browse/wsvn/odata/trunk/spec/schemas/edm.json#/definitions/Edm.GeographyPoint",
+                            "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/Edm.GeographyPoint",
                             "x-srid": "4326"
                         }
                     }
@@ -820,7 +820,7 @@
                     "default": {
                         "description": "Unexpected error",
                         "schema": {
-                            "$ref": "https://tools.oasis-open.org/version-control/browse/wsvn/odata/trunk/spec/schemas/edm.json#/definitions/odata.error"
+                            "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
                     }
                 }
@@ -851,7 +851,7 @@
                     "default": {
                         "description": "Unexpected error",
                         "schema": {
-                            "$ref": "https://tools.oasis-open.org/version-control/browse/wsvn/odata/trunk/spec/schemas/edm.json#/definitions/odata.error"
+                            "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
                     }
                 }
@@ -890,7 +890,7 @@
                     "default": {
                         "description": "Unexpected error",
                         "schema": {
-                            "$ref": "https://tools.oasis-open.org/version-control/browse/wsvn/odata/trunk/spec/schemas/edm.json#/definitions/odata.error"
+                            "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
                     }
                 }
@@ -926,7 +926,7 @@
                     "default": {
                         "description": "Unexpected error",
                         "schema": {
-                            "$ref": "https://tools.oasis-open.org/version-control/browse/wsvn/odata/trunk/spec/schemas/edm.json#/definitions/odata.error"
+                            "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
                     }
                 }
@@ -960,7 +960,7 @@
                     "default": {
                         "description": "Unexpected error",
                         "schema": {
-                            "$ref": "https://tools.oasis-open.org/version-control/browse/wsvn/odata/trunk/spec/schemas/edm.json#/definitions/odata.error"
+                            "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
                     }
                 }
@@ -1017,7 +1017,7 @@
                     "default": {
                         "description": "Unexpected error",
                         "schema": {
-                            "$ref": "https://tools.oasis-open.org/version-control/browse/wsvn/odata/trunk/spec/schemas/edm.json#/definitions/odata.error"
+                            "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
                     }
                 }
@@ -1048,7 +1048,7 @@
                     "default": {
                         "description": "Unexpected error",
                         "schema": {
-                            "$ref": "https://tools.oasis-open.org/version-control/browse/wsvn/odata/trunk/spec/schemas/edm.json#/definitions/odata.error"
+                            "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
                     }
                 }
@@ -1086,7 +1086,7 @@
                     "default": {
                         "description": "Unexpected error",
                         "schema": {
-                            "$ref": "https://tools.oasis-open.org/version-control/browse/wsvn/odata/trunk/spec/schemas/edm.json#/definitions/odata.error"
+                            "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
                     }
                 }
@@ -1121,7 +1121,7 @@
                     "default": {
                         "description": "Unexpected error",
                         "schema": {
-                            "$ref": "https://tools.oasis-open.org/version-control/browse/wsvn/odata/trunk/spec/schemas/edm.json#/definitions/odata.error"
+                            "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
                     }
                 }
@@ -1154,7 +1154,7 @@
                     "default": {
                         "description": "Unexpected error",
                         "schema": {
-                            "$ref": "https://tools.oasis-open.org/version-control/browse/wsvn/odata/trunk/spec/schemas/edm.json#/definitions/odata.error"
+                            "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
                     }
                 }
@@ -1185,7 +1185,7 @@
                     "default": {
                         "description": "Unexpected error",
                         "schema": {
-                            "$ref": "https://tools.oasis-open.org/version-control/browse/wsvn/odata/trunk/spec/schemas/edm.json#/definitions/odata.error"
+                            "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
                     }
                 }
@@ -1225,7 +1225,7 @@
                     "default": {
                         "description": "Unexpected error",
                         "schema": {
-                            "$ref": "https://tools.oasis-open.org/version-control/browse/wsvn/odata/trunk/spec/schemas/edm.json#/definitions/odata.error"
+                            "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
                     }
                 }
@@ -1270,7 +1270,7 @@
                     "default": {
                         "description": "Unexpected error",
                         "schema": {
-                            "$ref": "https://tools.oasis-open.org/version-control/browse/wsvn/odata/trunk/spec/schemas/edm.json#/definitions/odata.error"
+                            "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
                     }
                 }
@@ -1327,7 +1327,7 @@
                     "default": {
                         "description": "Unexpected error",
                         "schema": {
-                            "$ref": "https://tools.oasis-open.org/version-control/browse/wsvn/odata/trunk/spec/schemas/edm.json#/definitions/odata.error"
+                            "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
                     }
                 }
@@ -1358,7 +1358,7 @@
                     "default": {
                         "description": "Unexpected error",
                         "schema": {
-                            "$ref": "https://tools.oasis-open.org/version-control/browse/wsvn/odata/trunk/spec/schemas/edm.json#/definitions/odata.error"
+                            "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
                     }
                 }
@@ -1396,7 +1396,7 @@
                     "default": {
                         "description": "Unexpected error",
                         "schema": {
-                            "$ref": "https://tools.oasis-open.org/version-control/browse/wsvn/odata/trunk/spec/schemas/edm.json#/definitions/odata.error"
+                            "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
                     }
                 }
@@ -1431,7 +1431,7 @@
                     "default": {
                         "description": "Unexpected error",
                         "schema": {
-                            "$ref": "https://tools.oasis-open.org/version-control/browse/wsvn/odata/trunk/spec/schemas/edm.json#/definitions/odata.error"
+                            "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
                     }
                 }
@@ -1464,7 +1464,7 @@
                     "default": {
                         "description": "Unexpected error",
                         "schema": {
-                            "$ref": "https://tools.oasis-open.org/version-control/browse/wsvn/odata/trunk/spec/schemas/edm.json#/definitions/odata.error"
+                            "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
                     }
                 }
@@ -1521,7 +1521,7 @@
                     "default": {
                         "description": "Unexpected error",
                         "schema": {
-                            "$ref": "https://tools.oasis-open.org/version-control/browse/wsvn/odata/trunk/spec/schemas/edm.json#/definitions/odata.error"
+                            "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
                     }
                 }
@@ -1552,7 +1552,7 @@
                     "default": {
                         "description": "Unexpected error",
                         "schema": {
-                            "$ref": "https://tools.oasis-open.org/version-control/browse/wsvn/odata/trunk/spec/schemas/edm.json#/definitions/odata.error"
+                            "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
                     }
                 }
@@ -1590,7 +1590,7 @@
                     "default": {
                         "description": "Unexpected error",
                         "schema": {
-                            "$ref": "https://tools.oasis-open.org/version-control/browse/wsvn/odata/trunk/spec/schemas/edm.json#/definitions/odata.error"
+                            "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
                     }
                 }
@@ -1625,7 +1625,7 @@
                     "default": {
                         "description": "Unexpected error",
                         "schema": {
-                            "$ref": "https://tools.oasis-open.org/version-control/browse/wsvn/odata/trunk/spec/schemas/edm.json#/definitions/odata.error"
+                            "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
                     }
                 }
@@ -1658,7 +1658,7 @@
                     "default": {
                         "description": "Unexpected error",
                         "schema": {
-                            "$ref": "https://tools.oasis-open.org/version-control/browse/wsvn/odata/trunk/spec/schemas/edm.json#/definitions/odata.error"
+                            "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
                     }
                 }
@@ -1688,7 +1688,7 @@
                     "default": {
                         "description": "Unexpected error",
                         "schema": {
-                            "$ref": "https://tools.oasis-open.org/version-control/browse/wsvn/odata/trunk/spec/schemas/edm.json#/definitions/odata.error"
+                            "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
                     }
                 }
@@ -1715,7 +1715,7 @@
                     "default": {
                         "description": "Unexpected error",
                         "schema": {
-                            "$ref": "https://tools.oasis-open.org/version-control/browse/wsvn/odata/trunk/spec/schemas/edm.json#/definitions/odata.error"
+                            "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
                     }
                 }
@@ -1740,7 +1740,7 @@
                     "default": {
                         "description": "Unexpected error",
                         "schema": {
-                            "$ref": "https://tools.oasis-open.org/version-control/browse/wsvn/odata/trunk/spec/schemas/edm.json#/definitions/odata.error"
+                            "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
                     }
                 }
@@ -1773,7 +1773,7 @@
                     "default": {
                         "description": "Unexpected error",
                         "schema": {
-                            "$ref": "https://tools.oasis-open.org/version-control/browse/wsvn/odata/trunk/spec/schemas/edm.json#/definitions/odata.error"
+                            "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
                     }
                 }
@@ -1811,7 +1811,7 @@
                     "default": {
                         "description": "Unexpected error",
                         "schema": {
-                            "$ref": "https://tools.oasis-open.org/version-control/browse/wsvn/odata/trunk/spec/schemas/edm.json#/definitions/odata.error"
+                            "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
                     }
                 }
@@ -1849,7 +1849,7 @@
                     "default": {
                         "description": "Unexpected error",
                         "schema": {
-                            "$ref": "https://tools.oasis-open.org/version-control/browse/wsvn/odata/trunk/spec/schemas/edm.json#/definitions/odata.error"
+                            "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
                     }
                 }
@@ -1871,7 +1871,7 @@
                     "default": {
                         "description": "Unexpected error",
                         "schema": {
-                            "$ref": "https://tools.oasis-open.org/version-control/browse/wsvn/odata/trunk/spec/schemas/edm.json#/definitions/odata.error"
+                            "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
                     }
                 }
