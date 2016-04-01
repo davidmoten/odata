@@ -193,11 +193,9 @@
             ]
         },
         "Edm.Stream": {
-            "description": "unfulfillable constraint, no inline representation of Edm.Stream",
+            "description": "Edm.Stream properties aren't represented inline",
             "type": "string",
-            "enum": [
-                null
-            ]
+            "readOnly": true
         },
         "Edm.TimeOfDay": {
             "type": "string",
