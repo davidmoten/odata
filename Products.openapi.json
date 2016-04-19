@@ -86,7 +86,7 @@
                     }
                 },
                 "Supplier": {
-                    "$ref": "http://localhost/examples/People.openapi.json#/definitions/PeopleService.Supplier",
+                    "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/People.openapi.json#/definitions/PeopleService.Supplier",
                     "x-nullable": true,
                     "x-relationship": {
                         "partner": "Products"
@@ -254,7 +254,7 @@
     },
     "x-schemas": {
         "PeopleService": {
-            "uri": "http://localhost/examples/People.openapi.json"
+            "uri": "https://raw.githubusercontent.com/ralfhandl/odata/master/People.openapi.json"
         },
         "ProductService": {
             "annotations": {

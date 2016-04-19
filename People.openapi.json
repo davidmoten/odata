@@ -62,7 +62,7 @@
                 "Products": {
                     "type": "array",
                     "items": {
-                        "$ref": "http://localhost/examples/Products.openapi.json#/definitions/ProductService.Product"
+                        "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/Products.openapi.json#/definitions/ProductService.Product"
                     },
                     "x-relationship": {
                         "partner": "Supplier"
@@ -286,7 +286,7 @@
     },
     "x-schemas": {
         "ProductService": {
-            "uri": "http://localhost/examples/Products.openapi.json"
+            "uri": "https://raw.githubusercontent.com/ralfhandl/odata/master/Products.openapi.json"
         },
         "PeopleService": {
             "annotations": {
