@@ -7,17 +7,6 @@
         "version": "0.1.0"
     },
     "definitions": {
-        "Collection(Org.OData.Aggregation.V1.ApplySupportedType)": {
-            "type": "object",
-            "properties": {
-                "value": {
-                    "type": "array",
-                    "items": {
-                        "$ref": "#/definitions/Org.OData.Aggregation.V1.ApplySupportedType"
-                    }
-                }
-            }
-        },
         "Org.OData.Aggregation.V1.ApplySupportedType": {
             "type": "object",
             "properties": {
@@ -61,17 +50,6 @@
             ],
             "description": "The number of rollup operators allowed in a groupby transformation"
         },
-        "Collection(Org.OData.Aggregation.V1.RecursiveHierarchyType)": {
-            "type": "object",
-            "properties": {
-                "value": {
-                    "type": "array",
-                    "items": {
-                        "$ref": "#/definitions/Org.OData.Aggregation.V1.RecursiveHierarchyType"
-                    }
-                }
-            }
-        },
         "Org.OData.Aggregation.V1.RecursiveHierarchyType": {
             "type": "object",
             "properties": {
@@ -94,17 +72,6 @@
                     "description": "Property indicating whether the node is a leaf of the hierarchy",
                     "x-annotations": {
                         "@Core.RequiresType": "Edm.Boolean"
-                    }
-                }
-            }
-        },
-        "Collection(Org.OData.Aggregation.V1.AvailableOnAggregatesType)": {
-            "type": "object",
-            "properties": {
-                "value": {
-                    "type": "array",
-                    "items": {
-                        "$ref": "#/definitions/Org.OData.Aggregation.V1.AvailableOnAggregatesType"
                     }
                 }
             }

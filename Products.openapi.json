@@ -18,17 +18,6 @@
         "application/json"
     ],
     "definitions": {
-        "Collection(ProductService.Product)": {
-            "type": "object",
-            "properties": {
-                "value": {
-                    "type": "array",
-                    "items": {
-                        "$ref": "#/definitions/ProductService.Product"
-                    }
-                }
-            }
-        },
         "ProductService.Product": {
             "type": "object",
             "x-keys": [
@@ -101,17 +90,6 @@
                 }
             }
         },
-        "Collection(ProductService.FeaturedProduct)": {
-            "type": "object",
-            "properties": {
-                "value": {
-                    "type": "array",
-                    "items": {
-                        "$ref": "#/definitions/ProductService.FeaturedProduct"
-                    }
-                }
-            }
-        },
         "ProductService.FeaturedProduct": {
             "x-baseType": "ProductService.Product",
             "allOf": [
@@ -131,17 +109,6 @@
                     }
                 }
             ]
-        },
-        "Collection(ProductService.ProductDetail)": {
-            "type": "object",
-            "properties": {
-                "value": {
-                    "type": "array",
-                    "items": {
-                        "$ref": "#/definitions/ProductService.ProductDetail"
-                    }
-                }
-            }
         },
         "ProductService.ProductDetail": {
             "type": "object",
@@ -165,17 +132,6 @@
                     "x-nullable": true,
                     "x-relationship": {
                         "partner": "ProductDetail"
-                    }
-                }
-            }
-        },
-        "Collection(ProductService.Category)": {
-            "type": "object",
-            "properties": {
-                "value": {
-                    "type": "array",
-                    "items": {
-                        "$ref": "#/definitions/ProductService.Category"
                     }
                 }
             }
@@ -205,17 +161,6 @@
                     },
                     "x-relationship": {
                         "partner": "Categories"
-                    }
-                }
-            }
-        },
-        "Collection(ProductService.Advertisement)": {
-            "type": "object",
-            "properties": {
-                "value": {
-                    "type": "array",
-                    "items": {
-                        "$ref": "#/definitions/ProductService.Advertisement"
                     }
                 }
             }
@@ -374,7 +319,16 @@
                     "200": {
                         "description": "EntitySet Products",
                         "schema": {
-                            "$ref": "#/definitions/Collection(ProductService.Product)"
+                            "type": "object",
+                            "title": "Collection of ProductService.Product",
+                            "properties": {
+                                "value": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/definitions/ProductService.Product"
+                                    }
+                                }
+                            }
                         }
                     },
                     "default": {
@@ -613,7 +567,16 @@
                     "200": {
                         "description": "EntitySet ProductDetails",
                         "schema": {
-                            "$ref": "#/definitions/Collection(ProductService.ProductDetail)"
+                            "type": "object",
+                            "title": "Collection of ProductService.ProductDetail",
+                            "properties": {
+                                "value": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/definitions/ProductService.ProductDetail"
+                                    }
+                                }
+                            }
                         }
                     },
                     "default": {
@@ -802,7 +765,16 @@
                     "200": {
                         "description": "EntitySet Categories",
                         "schema": {
-                            "$ref": "#/definitions/Collection(ProductService.Category)"
+                            "type": "object",
+                            "title": "Collection of ProductService.Category",
+                            "properties": {
+                                "value": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/definitions/ProductService.Category"
+                                    }
+                                }
+                            }
                         }
                     },
                     "default": {
@@ -991,7 +963,16 @@
                     "200": {
                         "description": "EntitySet Advertisements",
                         "schema": {
-                            "$ref": "#/definitions/Collection(ProductService.Advertisement)"
+                            "type": "object",
+                            "title": "Collection of ProductService.Advertisement",
+                            "properties": {
+                                "value": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/definitions/ProductService.Advertisement"
+                                    }
+                                }
+                            }
                         }
                     },
                     "default": {

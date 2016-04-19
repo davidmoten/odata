@@ -31,17 +31,6 @@
                 "Unknown@odata.value": 2
             }
         },
-        "Collection(Microsoft.OData.SampleService.Models.TripPin.City)": {
-            "type": "object",
-            "properties": {
-                "value": {
-                    "type": "array",
-                    "items": {
-                        "$ref": "#/definitions/Microsoft.OData.SampleService.Models.TripPin.City"
-                    }
-                }
-            }
-        },
         "Microsoft.OData.SampleService.Models.TripPin.City": {
             "type": "object",
             "properties": {
@@ -56,17 +45,6 @@
                 }
             }
         },
-        "Collection(Microsoft.OData.SampleService.Models.TripPin.Location)": {
-            "type": "object",
-            "properties": {
-                "value": {
-                    "type": "array",
-                    "items": {
-                        "$ref": "#/definitions/Microsoft.OData.SampleService.Models.TripPin.Location"
-                    }
-                }
-            }
-        },
         "Microsoft.OData.SampleService.Models.TripPin.Location": {
             "type": "object",
             "x-openType": true,
@@ -76,17 +54,6 @@
                 },
                 "City": {
                     "$ref": "#/definitions/Microsoft.OData.SampleService.Models.TripPin.City"
-                }
-            }
-        },
-        "Collection(Microsoft.OData.SampleService.Models.TripPin.EventLocation)": {
-            "type": "object",
-            "properties": {
-                "value": {
-                    "type": "array",
-                    "items": {
-                        "$ref": "#/definitions/Microsoft.OData.SampleService.Models.TripPin.EventLocation"
-                    }
                 }
             }
         },
@@ -111,17 +78,6 @@
                 }
             ]
         },
-        "Collection(Microsoft.OData.SampleService.Models.TripPin.AirportLocation)": {
-            "type": "object",
-            "properties": {
-                "value": {
-                    "type": "array",
-                    "items": {
-                        "$ref": "#/definitions/Microsoft.OData.SampleService.Models.TripPin.AirportLocation"
-                    }
-                }
-            }
-        },
         "Microsoft.OData.SampleService.Models.TripPin.AirportLocation": {
             "x-baseType": "Microsoft.OData.SampleService.Models.TripPin.Location",
             "allOf": [
@@ -139,17 +95,6 @@
                     }
                 }
             ]
-        },
-        "Collection(Microsoft.OData.SampleService.Models.TripPin.Photo)": {
-            "type": "object",
-            "properties": {
-                "value": {
-                    "type": "array",
-                    "items": {
-                        "$ref": "#/definitions/Microsoft.OData.SampleService.Models.TripPin.Photo"
-                    }
-                }
-            }
         },
         "Microsoft.OData.SampleService.Models.TripPin.Photo": {
             "type": "object",
@@ -180,17 +125,6 @@
                 "@Org.OData.Core.V1.AcceptableMediaTypes": [
                     "image/jpeg"
                 ]
-            }
-        },
-        "Collection(Microsoft.OData.SampleService.Models.TripPin.Person)": {
-            "type": "object",
-            "properties": {
-                "value": {
-                    "type": "array",
-                    "items": {
-                        "$ref": "#/definitions/Microsoft.OData.SampleService.Models.TripPin.Person"
-                    }
-                }
             }
         },
         "Microsoft.OData.SampleService.Models.TripPin.Person": {
@@ -265,17 +199,6 @@
                 }
             }
         },
-        "Collection(Microsoft.OData.SampleService.Models.TripPin.Airline)": {
-            "type": "object",
-            "properties": {
-                "value": {
-                    "type": "array",
-                    "items": {
-                        "$ref": "#/definitions/Microsoft.OData.SampleService.Models.TripPin.Airline"
-                    }
-                }
-            }
-        },
         "Microsoft.OData.SampleService.Models.TripPin.Airline": {
             "type": "object",
             "x-keys": [
@@ -290,17 +213,6 @@
                 },
                 "Name": {
                     "type": "string"
-                }
-            }
-        },
-        "Collection(Microsoft.OData.SampleService.Models.TripPin.Airport)": {
-            "type": "object",
-            "properties": {
-                "value": {
-                    "type": "array",
-                    "items": {
-                        "$ref": "#/definitions/Microsoft.OData.SampleService.Models.TripPin.Airport"
-                    }
                 }
             }
         },
@@ -327,17 +239,6 @@
                 },
                 "Location": {
                     "$ref": "#/definitions/Microsoft.OData.SampleService.Models.TripPin.AirportLocation"
-                }
-            }
-        },
-        "Collection(Microsoft.OData.SampleService.Models.TripPin.PlanItem)": {
-            "type": "object",
-            "properties": {
-                "value": {
-                    "type": "array",
-                    "items": {
-                        "$ref": "#/definitions/Microsoft.OData.SampleService.Models.TripPin.PlanItem"
-                    }
                 }
             }
         },
@@ -387,17 +288,6 @@
                 }
             }
         },
-        "Collection(Microsoft.OData.SampleService.Models.TripPin.PublicTransportation)": {
-            "type": "object",
-            "properties": {
-                "value": {
-                    "type": "array",
-                    "items": {
-                        "$ref": "#/definitions/Microsoft.OData.SampleService.Models.TripPin.PublicTransportation"
-                    }
-                }
-            }
-        },
         "Microsoft.OData.SampleService.Models.TripPin.PublicTransportation": {
             "x-baseType": "Microsoft.OData.SampleService.Models.TripPin.PlanItem",
             "allOf": [
@@ -417,17 +307,6 @@
                     }
                 }
             ]
-        },
-        "Collection(Microsoft.OData.SampleService.Models.TripPin.Flight)": {
-            "type": "object",
-            "properties": {
-                "value": {
-                    "type": "array",
-                    "items": {
-                        "$ref": "#/definitions/Microsoft.OData.SampleService.Models.TripPin.Flight"
-                    }
-                }
-            }
         },
         "Microsoft.OData.SampleService.Models.TripPin.Flight": {
             "x-baseType": "Microsoft.OData.SampleService.Models.TripPin.PublicTransportation",
@@ -463,17 +342,6 @@
                 }
             ]
         },
-        "Collection(Microsoft.OData.SampleService.Models.TripPin.Event)": {
-            "type": "object",
-            "properties": {
-                "value": {
-                    "type": "array",
-                    "items": {
-                        "$ref": "#/definitions/Microsoft.OData.SampleService.Models.TripPin.Event"
-                    }
-                }
-            }
-        },
         "Microsoft.OData.SampleService.Models.TripPin.Event": {
             "x-baseType": "Microsoft.OData.SampleService.Models.TripPin.PlanItem",
             "allOf": [
@@ -497,17 +365,6 @@
                     }
                 }
             ]
-        },
-        "Collection(Microsoft.OData.SampleService.Models.TripPin.Trip)": {
-            "type": "object",
-            "properties": {
-                "value": {
-                    "type": "array",
-                    "items": {
-                        "$ref": "#/definitions/Microsoft.OData.SampleService.Models.TripPin.Trip"
-                    }
-                }
-            }
         },
         "Microsoft.OData.SampleService.Models.TripPin.Trip": {
             "type": "object",
@@ -934,7 +791,16 @@
                     "200": {
                         "description": "EntitySet Photos",
                         "schema": {
-                            "$ref": "#/definitions/Collection(Microsoft.OData.SampleService.Models.TripPin.Photo)"
+                            "type": "object",
+                            "title": "Collection of Microsoft.OData.SampleService.Models.TripPin.Photo",
+                            "properties": {
+                                "value": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/definitions/Microsoft.OData.SampleService.Models.TripPin.Photo"
+                                    }
+                                }
+                            }
                         }
                     },
                     "default": {
@@ -1123,7 +989,16 @@
                     "200": {
                         "description": "EntitySet People",
                         "schema": {
-                            "$ref": "#/definitions/Collection(Microsoft.OData.SampleService.Models.TripPin.Person)"
+                            "type": "object",
+                            "title": "Collection of Microsoft.OData.SampleService.Models.TripPin.Person",
+                            "properties": {
+                                "value": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/definitions/Microsoft.OData.SampleService.Models.TripPin.Person"
+                                    }
+                                }
+                            }
                         }
                     },
                     "default": {
@@ -1425,7 +1300,16 @@
                     "200": {
                         "description": "EntitySet Airlines",
                         "schema": {
-                            "$ref": "#/definitions/Collection(Microsoft.OData.SampleService.Models.TripPin.Airline)"
+                            "type": "object",
+                            "title": "Collection of Microsoft.OData.SampleService.Models.TripPin.Airline",
+                            "properties": {
+                                "value": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/definitions/Microsoft.OData.SampleService.Models.TripPin.Airline"
+                                    }
+                                }
+                            }
                         }
                     },
                     "default": {
@@ -1611,7 +1495,16 @@
                     "200": {
                         "description": "EntitySet Airports",
                         "schema": {
-                            "$ref": "#/definitions/Collection(Microsoft.OData.SampleService.Models.TripPin.Airport)"
+                            "type": "object",
+                            "title": "Collection of Microsoft.OData.SampleService.Models.TripPin.Airport",
+                            "properties": {
+                                "value": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/definitions/Microsoft.OData.SampleService.Models.TripPin.Airport"
+                                    }
+                                }
+                            }
                         }
                     },
                     "default": {
