@@ -558,7 +558,19 @@
                         "$ref": "#/parameters/select"
                     },
                     {
-                        "$ref": "#/parameters/expand"
+                        "name": "$expand",
+                        "in": "query",
+                        "description": "Expand related entities, see [OData Expand](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398298)",
+                        "type": "array",
+                        "uniqueItems": true,
+                        "items": {
+                            "type": "string"
+                        },
+                        "enum": [
+                            "Categories",
+                            "Supplier",
+                            "ProductDetail"
+                        ]
                     }
                 ],
                 "responses": {
@@ -806,7 +818,17 @@
                         "$ref": "#/parameters/select"
                     },
                     {
-                        "$ref": "#/parameters/expand"
+                        "name": "$expand",
+                        "in": "query",
+                        "description": "Expand related entities, see [OData Expand](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398298)",
+                        "type": "array",
+                        "uniqueItems": true,
+                        "items": {
+                            "type": "string"
+                        },
+                        "enum": [
+                            "Product"
+                        ]
                     }
                 ],
                 "responses": {
@@ -1004,7 +1026,17 @@
                         "$ref": "#/parameters/select"
                     },
                     {
-                        "$ref": "#/parameters/expand"
+                        "name": "$expand",
+                        "in": "query",
+                        "description": "Expand related entities, see [OData Expand](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398298)",
+                        "type": "array",
+                        "uniqueItems": true,
+                        "items": {
+                            "type": "string"
+                        },
+                        "enum": [
+                            "Products"
+                        ]
                     }
                 ],
                 "responses": {
@@ -1202,7 +1234,17 @@
                         "$ref": "#/parameters/select"
                     },
                     {
-                        "$ref": "#/parameters/expand"
+                        "name": "$expand",
+                        "in": "query",
+                        "description": "Expand related entities, see [OData Expand](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398298)",
+                        "type": "array",
+                        "uniqueItems": true,
+                        "items": {
+                            "type": "string"
+                        },
+                        "enum": [
+                            "Products"
+                        ]
                     }
                 ],
                 "responses": {
@@ -1400,7 +1442,17 @@
                         "$ref": "#/parameters/select"
                     },
                     {
-                        "$ref": "#/parameters/expand"
+                        "name": "$expand",
+                        "in": "query",
+                        "description": "Expand related entities, see [OData Expand](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398298)",
+                        "type": "array",
+                        "uniqueItems": true,
+                        "items": {
+                            "type": "string"
+                        },
+                        "enum": [
+                            "PersonDetail"
+                        ]
                     }
                 ],
                 "responses": {
@@ -1598,7 +1650,17 @@
                         "$ref": "#/parameters/select"
                     },
                     {
-                        "$ref": "#/parameters/expand"
+                        "name": "$expand",
+                        "in": "query",
+                        "description": "Expand related entities, see [OData Expand](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398298)",
+                        "type": "array",
+                        "uniqueItems": true,
+                        "items": {
+                            "type": "string"
+                        },
+                        "enum": [
+                            "Person"
+                        ]
                     }
                 ],
                 "responses": {
@@ -1796,7 +1858,17 @@
                         "$ref": "#/parameters/select"
                     },
                     {
-                        "$ref": "#/parameters/expand"
+                        "name": "$expand",
+                        "in": "query",
+                        "description": "Expand related entities, see [OData Expand](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398298)",
+                        "type": "array",
+                        "uniqueItems": true,
+                        "items": {
+                            "type": "string"
+                        },
+                        "enum": [
+                            "FeaturedProduct"
+                        ]
                     }
                 ],
                 "responses": {

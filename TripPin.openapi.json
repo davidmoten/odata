@@ -782,9 +782,6 @@
                     },
                     {
                         "$ref": "#/parameters/select"
-                    },
-                    {
-                        "$ref": "#/parameters/expand"
                     }
                 ],
                 "responses": {
@@ -982,7 +979,19 @@
                         "$ref": "#/parameters/select"
                     },
                     {
-                        "$ref": "#/parameters/expand"
+                        "name": "$expand",
+                        "in": "query",
+                        "description": "Expand related entities, see [OData Expand](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398298)",
+                        "type": "array",
+                        "uniqueItems": true,
+                        "items": {
+                            "type": "string"
+                        },
+                        "enum": [
+                            "Friends",
+                            "Trips",
+                            "Photo"
+                        ]
                     }
                 ],
                 "responses": {
@@ -1291,9 +1300,6 @@
                     },
                     {
                         "$ref": "#/parameters/select"
-                    },
-                    {
-                        "$ref": "#/parameters/expand"
                     }
                 ],
                 "responses": {
@@ -1486,9 +1492,6 @@
                     },
                     {
                         "$ref": "#/parameters/select"
-                    },
-                    {
-                        "$ref": "#/parameters/expand"
                     }
                 ],
                 "responses": {
