@@ -297,9 +297,6 @@
                         "$ref": "#/parameters/skip"
                     },
                     {
-                        "$ref": "#/parameters/orderby"
-                    },
-                    {
                         "$ref": "#/parameters/search"
                     },
                     {
@@ -309,10 +306,64 @@
                         "$ref": "#/parameters/count"
                     },
                     {
-                        "$ref": "#/parameters/select"
+                        "name": "$orderby",
+                        "in": "query",
+                        "description": "Order by property values, see [OData Sorting](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398305)",
+                        "type": "array",
+                        "uniqueItems": true,
+                        "items": {
+                            "type": "string"
+                        },
+                        "enum": [
+                            "ID",
+                            "ID desc",
+                            "Name",
+                            "Name desc",
+                            "Description",
+                            "Description desc",
+                            "ReleaseDate",
+                            "ReleaseDate desc",
+                            "DiscontinuedDate",
+                            "DiscontinuedDate desc",
+                            "Rating",
+                            "Rating desc",
+                            "Price",
+                            "Price desc"
+                        ]
                     },
                     {
-                        "$ref": "#/parameters/expand"
+                        "name": "$select",
+                        "in": "query",
+                        "description": "Select properties to be returned, see [OData Select](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398297)",
+                        "type": "array",
+                        "uniqueItems": true,
+                        "items": {
+                            "type": "string"
+                        },
+                        "enum": [
+                            "ID",
+                            "Name",
+                            "Description",
+                            "ReleaseDate",
+                            "DiscontinuedDate",
+                            "Rating",
+                            "Price"
+                        ]
+                    },
+                    {
+                        "name": "$expand",
+                        "in": "query",
+                        "description": "Expand related entities, see [OData Expand](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398298)",
+                        "type": "array",
+                        "uniqueItems": true,
+                        "items": {
+                            "type": "string"
+                        },
+                        "enum": [
+                            "Categories",
+                            "Supplier",
+                            "ProductDetail"
+                        ]
                     }
                 ],
                 "responses": {
@@ -545,9 +596,6 @@
                         "$ref": "#/parameters/skip"
                     },
                     {
-                        "$ref": "#/parameters/orderby"
-                    },
-                    {
                         "$ref": "#/parameters/search"
                     },
                     {
@@ -557,10 +605,47 @@
                         "$ref": "#/parameters/count"
                     },
                     {
-                        "$ref": "#/parameters/select"
+                        "name": "$orderby",
+                        "in": "query",
+                        "description": "Order by property values, see [OData Sorting](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398305)",
+                        "type": "array",
+                        "uniqueItems": true,
+                        "items": {
+                            "type": "string"
+                        },
+                        "enum": [
+                            "ProductID",
+                            "ProductID desc",
+                            "Details",
+                            "Details desc"
+                        ]
                     },
                     {
-                        "$ref": "#/parameters/expand"
+                        "name": "$select",
+                        "in": "query",
+                        "description": "Select properties to be returned, see [OData Select](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398297)",
+                        "type": "array",
+                        "uniqueItems": true,
+                        "items": {
+                            "type": "string"
+                        },
+                        "enum": [
+                            "ProductID",
+                            "Details"
+                        ]
+                    },
+                    {
+                        "name": "$expand",
+                        "in": "query",
+                        "description": "Expand related entities, see [OData Expand](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398298)",
+                        "type": "array",
+                        "uniqueItems": true,
+                        "items": {
+                            "type": "string"
+                        },
+                        "enum": [
+                            "Product"
+                        ]
                     }
                 ],
                 "responses": {
@@ -743,9 +828,6 @@
                         "$ref": "#/parameters/skip"
                     },
                     {
-                        "$ref": "#/parameters/orderby"
-                    },
-                    {
                         "$ref": "#/parameters/search"
                     },
                     {
@@ -755,10 +837,47 @@
                         "$ref": "#/parameters/count"
                     },
                     {
-                        "$ref": "#/parameters/select"
+                        "name": "$orderby",
+                        "in": "query",
+                        "description": "Order by property values, see [OData Sorting](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398305)",
+                        "type": "array",
+                        "uniqueItems": true,
+                        "items": {
+                            "type": "string"
+                        },
+                        "enum": [
+                            "ID",
+                            "ID desc",
+                            "Name",
+                            "Name desc"
+                        ]
                     },
                     {
-                        "$ref": "#/parameters/expand"
+                        "name": "$select",
+                        "in": "query",
+                        "description": "Select properties to be returned, see [OData Select](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398297)",
+                        "type": "array",
+                        "uniqueItems": true,
+                        "items": {
+                            "type": "string"
+                        },
+                        "enum": [
+                            "ID",
+                            "Name"
+                        ]
+                    },
+                    {
+                        "name": "$expand",
+                        "in": "query",
+                        "description": "Expand related entities, see [OData Expand](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398298)",
+                        "type": "array",
+                        "uniqueItems": true,
+                        "items": {
+                            "type": "string"
+                        },
+                        "enum": [
+                            "Products"
+                        ]
                     }
                 ],
                 "responses": {
@@ -941,9 +1060,6 @@
                         "$ref": "#/parameters/skip"
                     },
                     {
-                        "$ref": "#/parameters/orderby"
-                    },
-                    {
                         "$ref": "#/parameters/search"
                     },
                     {
@@ -953,10 +1069,50 @@
                         "$ref": "#/parameters/count"
                     },
                     {
-                        "$ref": "#/parameters/select"
+                        "name": "$orderby",
+                        "in": "query",
+                        "description": "Order by property values, see [OData Sorting](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398305)",
+                        "type": "array",
+                        "uniqueItems": true,
+                        "items": {
+                            "type": "string"
+                        },
+                        "enum": [
+                            "ID",
+                            "ID desc",
+                            "Name",
+                            "Name desc",
+                            "AirDate",
+                            "AirDate desc"
+                        ]
                     },
                     {
-                        "$ref": "#/parameters/expand"
+                        "name": "$select",
+                        "in": "query",
+                        "description": "Select properties to be returned, see [OData Select](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398297)",
+                        "type": "array",
+                        "uniqueItems": true,
+                        "items": {
+                            "type": "string"
+                        },
+                        "enum": [
+                            "ID",
+                            "Name",
+                            "AirDate"
+                        ]
+                    },
+                    {
+                        "name": "$expand",
+                        "in": "query",
+                        "description": "Expand related entities, see [OData Expand](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398298)",
+                        "type": "array",
+                        "uniqueItems": true,
+                        "items": {
+                            "type": "string"
+                        },
+                        "enum": [
+                            "FeaturedProduct"
+                        ]
                     }
                 ],
                 "responses": {
