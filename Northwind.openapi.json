@@ -393,9 +393,7 @@
                     "format": "decimal",
                     "x-precision": 19,
                     "x-scale": 4,
-                    "multipleOf": 1e-4,
-                    "minimum": -999999999999999.9999,
-                    "maximum": 999999999999999.9999
+                    "multipleOf": 1.0e-4
                 },
                 "Quantity": {
                     "type": "integer",
@@ -500,9 +498,7 @@
                     "format": "decimal",
                     "x-precision": 19,
                     "x-scale": 4,
-                    "multipleOf": 1e-4,
-                    "minimum": -999999999999999.9999,
-                    "maximum": 999999999999999.9999
+                    "multipleOf": 1.0e-4
                 },
                 "ShipName": {
                     "type": [
@@ -647,9 +643,7 @@
                     "format": "decimal",
                     "x-precision": 19,
                     "x-scale": 4,
-                    "multipleOf": 1e-4,
-                    "minimum": -999999999999999.9999,
-                    "maximum": 999999999999999.9999
+                    "multipleOf": 1.0e-4
                 },
                 "UnitsInStock": {
                     "type": [
@@ -966,9 +960,7 @@
                     "format": "decimal",
                     "x-precision": 19,
                     "x-scale": 4,
-                    "multipleOf": 1e-4,
-                    "minimum": -999999999999999.9999,
-                    "maximum": 999999999999999.9999
+                    "multipleOf": 1.0e-4
                 },
                 "UnitsInStock": {
                     "type": [
@@ -1023,9 +1015,7 @@
                     "format": "decimal",
                     "x-precision": 19,
                     "x-scale": 4,
-                    "multipleOf": 1e-4,
-                    "minimum": -999999999999999.9999,
-                    "maximum": 999999999999999.9999
+                    "multipleOf": 1.0e-4
                 }
             }
         },
@@ -1246,9 +1236,7 @@
                     "format": "decimal",
                     "x-precision": 19,
                     "x-scale": 4,
-                    "multipleOf": 1e-4,
-                    "minimum": -999999999999999.9999,
-                    "maximum": 999999999999999.9999
+                    "multipleOf": 1.0e-4
                 },
                 "Quantity": {
                     "type": "integer",
@@ -1271,9 +1259,7 @@
                     "format": "decimal",
                     "x-precision": 19,
                     "x-scale": 4,
-                    "multipleOf": 1e-4,
-                    "minimum": -999999999999999.9999,
-                    "maximum": 999999999999999.9999
+                    "multipleOf": 1.0e-4
                 },
                 "Freight": {
                     "type": [
@@ -1285,9 +1271,7 @@
                     "format": "decimal",
                     "x-precision": 19,
                     "x-scale": 4,
-                    "multipleOf": 1e-4,
-                    "minimum": -999999999999999.9999,
-                    "maximum": 999999999999999.9999
+                    "multipleOf": 1.0e-4
                 }
             }
         },
@@ -1322,9 +1306,7 @@
                     "format": "decimal",
                     "x-precision": 19,
                     "x-scale": 4,
-                    "multipleOf": 1e-4,
-                    "minimum": -999999999999999.9999,
-                    "maximum": 999999999999999.9999
+                    "multipleOf": 1.0e-4
                 },
                 "Quantity": {
                     "type": "integer",
@@ -1347,9 +1329,7 @@
                     "format": "decimal",
                     "x-precision": 19,
                     "x-scale": 4,
-                    "multipleOf": 1e-4,
-                    "minimum": -999999999999999.9999,
-                    "maximum": 999999999999999.9999
+                    "multipleOf": 1.0e-4
                 }
             }
         },
@@ -1373,9 +1353,7 @@
                     "format": "decimal",
                     "x-precision": 19,
                     "x-scale": 4,
-                    "multipleOf": 1e-4,
-                    "minimum": -999999999999999.9999,
-                    "maximum": 999999999999999.9999
+                    "multipleOf": 1.0e-4
                 }
             }
         },
@@ -1448,9 +1426,7 @@
                     "format": "decimal",
                     "x-precision": 19,
                     "x-scale": 4,
-                    "multipleOf": 1e-4,
-                    "minimum": -999999999999999.9999,
-                    "maximum": 999999999999999.9999
+                    "multipleOf": 1.0e-4
                 },
                 "ShipName": {
                     "type": [
@@ -1571,9 +1547,7 @@
                     "format": "decimal",
                     "x-precision": 19,
                     "x-scale": 4,
-                    "multipleOf": 1e-4,
-                    "minimum": -999999999999999.9999,
-                    "maximum": 999999999999999.9999
+                    "multipleOf": 1.0e-4
                 }
             }
         },
@@ -1597,9 +1571,7 @@
                     "format": "decimal",
                     "x-precision": 19,
                     "x-scale": 4,
-                    "multipleOf": 1e-4,
-                    "minimum": -999999999999999.9999,
-                    "maximum": 999999999999999.9999
+                    "multipleOf": 1.0e-4
                 }
             }
         },
@@ -1670,9 +1642,7 @@
                     "format": "decimal",
                     "x-precision": 19,
                     "x-scale": 4,
-                    "multipleOf": 1e-4,
-                    "minimum": -999999999999999.9999,
-                    "maximum": 999999999999999.9999
+                    "multipleOf": 1.0e-4
                 }
             }
         },
@@ -1693,9 +1663,7 @@
                     "format": "decimal",
                     "x-precision": 19,
                     "x-scale": 4,
-                    "multipleOf": 1e-4,
-                    "minimum": -999999999999999.9999,
-                    "maximum": 999999999999999.9999
+                    "multipleOf": 1.0e-4
                 },
                 "OrderID": {
                     "type": "integer",
@@ -1743,9 +1711,7 @@
                     "format": "decimal",
                     "x-precision": 19,
                     "x-scale": 4,
-                    "multipleOf": 1e-4,
-                    "minimum": -999999999999999.9999,
-                    "maximum": 999999999999999.9999
+                    "multipleOf": 1.0e-4
                 }
             }
         },
@@ -1777,9 +1743,7 @@
                     "format": "decimal",
                     "x-precision": 19,
                     "x-scale": 4,
-                    "multipleOf": 1e-4,
-                    "minimum": -999999999999999.9999,
-                    "maximum": 999999999999999.9999
+                    "multipleOf": 1.0e-4
                 }
             }
         }
@@ -1949,7 +1913,7 @@
     "paths": {
         "/Categories": {
             "get": {
-                "summary": "Get entities from entity set Categories",
+                "summary": "Get entities from Categories",
                 "description": "Get entities from entity set Categories",
                 "tags": [
                     "Categories"
@@ -2045,7 +2009,7 @@
                 }
             },
             "post": {
-                "summary": "Post a new entity to entity set Categories",
+                "summary": "Add new entity to Categories",
                 "description": "Post a new entity to entity set Categories",
                 "tags": [
                     "Categories"
@@ -2078,7 +2042,7 @@
         },
         "/Categories({CategoryID})": {
             "get": {
-                "summary": "Get entity from Categories by key.",
+                "summary": "Get entity from Categories by key",
                 "description": "Returns the entity with the key from Categories",
                 "tags": [
                     "Categories"
@@ -2138,8 +2102,8 @@
                 }
             },
             "patch": {
-                "summary": "Update entity in EntitySet Categories",
-                "description": "Update entity in EntitySet Categories",
+                "summary": "Update entity in Categories",
+                "description": "Update entity in entity set Categories",
                 "tags": [
                     "Categories"
                 ],
@@ -2174,8 +2138,8 @@
                 }
             },
             "delete": {
-                "summary": "Delete entity in EntitySet Categories",
-                "description": "Delete entity in EntitySet Categories",
+                "summary": "Delete entity from Categories",
+                "description": "Delete entity from entity set Categories",
                 "tags": [
                     "Categories"
                 ],
@@ -2210,7 +2174,7 @@
         },
         "/CustomerDemographics": {
             "get": {
-                "summary": "Get entities from entity set CustomerDemographics",
+                "summary": "Get entities from CustomerDemographics",
                 "description": "Get entities from entity set CustomerDemographics",
                 "tags": [
                     "CustomerDemographics"
@@ -2300,7 +2264,7 @@
                 }
             },
             "post": {
-                "summary": "Post a new entity to entity set CustomerDemographics",
+                "summary": "Add new entity to CustomerDemographics",
                 "description": "Post a new entity to entity set CustomerDemographics",
                 "tags": [
                     "CustomerDemographics"
@@ -2333,7 +2297,7 @@
         },
         "/CustomerDemographics('{CustomerTypeID}')": {
             "get": {
-                "summary": "Get entity from CustomerDemographics by key.",
+                "summary": "Get entity from CustomerDemographics by key",
                 "description": "Returns the entity with the key from CustomerDemographics",
                 "tags": [
                     "CustomerDemographics"
@@ -2390,8 +2354,8 @@
                 }
             },
             "patch": {
-                "summary": "Update entity in EntitySet CustomerDemographics",
-                "description": "Update entity in EntitySet CustomerDemographics",
+                "summary": "Update entity in CustomerDemographics",
+                "description": "Update entity in entity set CustomerDemographics",
                 "tags": [
                     "CustomerDemographics"
                 ],
@@ -2425,8 +2389,8 @@
                 }
             },
             "delete": {
-                "summary": "Delete entity in EntitySet CustomerDemographics",
-                "description": "Delete entity in EntitySet CustomerDemographics",
+                "summary": "Delete entity from CustomerDemographics",
+                "description": "Delete entity from entity set CustomerDemographics",
                 "tags": [
                     "CustomerDemographics"
                 ],
@@ -2460,7 +2424,7 @@
         },
         "/Customers": {
             "get": {
-                "summary": "Get entities from entity set Customers",
+                "summary": "Get entities from Customers",
                 "description": "Get entities from entity set Customers",
                 "tags": [
                     "Customers"
@@ -2578,7 +2542,7 @@
                 }
             },
             "post": {
-                "summary": "Post a new entity to entity set Customers",
+                "summary": "Add new entity to Customers",
                 "description": "Post a new entity to entity set Customers",
                 "tags": [
                     "Customers"
@@ -2611,7 +2575,7 @@
         },
         "/Customers('{CustomerID}')": {
             "get": {
-                "summary": "Get entity from Customers by key.",
+                "summary": "Get entity from Customers by key",
                 "description": "Returns the entity with the key from Customers",
                 "tags": [
                     "Customers"
@@ -2678,8 +2642,8 @@
                 }
             },
             "patch": {
-                "summary": "Update entity in EntitySet Customers",
-                "description": "Update entity in EntitySet Customers",
+                "summary": "Update entity in Customers",
+                "description": "Update entity in entity set Customers",
                 "tags": [
                     "Customers"
                 ],
@@ -2713,8 +2677,8 @@
                 }
             },
             "delete": {
-                "summary": "Delete entity in EntitySet Customers",
-                "description": "Delete entity in EntitySet Customers",
+                "summary": "Delete entity from Customers",
+                "description": "Delete entity from entity set Customers",
                 "tags": [
                     "Customers"
                 ],
@@ -2748,7 +2712,7 @@
         },
         "/Employees": {
             "get": {
-                "summary": "Get entities from entity set Employees",
+                "summary": "Get entities from Employees",
                 "description": "Get entities from entity set Employees",
                 "tags": [
                     "Employees"
@@ -2889,7 +2853,7 @@
                 }
             },
             "post": {
-                "summary": "Post a new entity to entity set Employees",
+                "summary": "Add new entity to Employees",
                 "description": "Post a new entity to entity set Employees",
                 "tags": [
                     "Employees"
@@ -2922,7 +2886,7 @@
         },
         "/Employees({EmployeeID})": {
             "get": {
-                "summary": "Get entity from Employees by key.",
+                "summary": "Get entity from Employees by key",
                 "description": "Returns the entity with the key from Employees",
                 "tags": [
                     "Employees"
@@ -2999,8 +2963,8 @@
                 }
             },
             "patch": {
-                "summary": "Update entity in EntitySet Employees",
-                "description": "Update entity in EntitySet Employees",
+                "summary": "Update entity in Employees",
+                "description": "Update entity in entity set Employees",
                 "tags": [
                     "Employees"
                 ],
@@ -3035,8 +2999,8 @@
                 }
             },
             "delete": {
-                "summary": "Delete entity in EntitySet Employees",
-                "description": "Delete entity in EntitySet Employees",
+                "summary": "Delete entity from Employees",
+                "description": "Delete entity from entity set Employees",
                 "tags": [
                     "Employees"
                 ],
@@ -3071,7 +3035,7 @@
         },
         "/Order_Details": {
             "get": {
-                "summary": "Get entities from entity set Order_Details",
+                "summary": "Get entities from Order_Details",
                 "description": "Get entities from entity set Order_Details",
                 "tags": [
                     "Order_Details"
@@ -3171,7 +3135,7 @@
                 }
             },
             "post": {
-                "summary": "Post a new entity to entity set Order_Details",
+                "summary": "Add new entity to Order_Details",
                 "description": "Post a new entity to entity set Order_Details",
                 "tags": [
                     "Order_Details"
@@ -3204,7 +3168,7 @@
         },
         "/Order_Details(OrderID={OrderID},ProductID={ProductID})": {
             "get": {
-                "summary": "Get entity from Order_Details by key.",
+                "summary": "Get entity from Order_Details by key",
                 "description": "Returns the entity with the key from Order_Details",
                 "tags": [
                     "Order_Details"
@@ -3274,8 +3238,8 @@
                 }
             },
             "patch": {
-                "summary": "Update entity in EntitySet Order_Details",
-                "description": "Update entity in EntitySet Order_Details",
+                "summary": "Update entity in Order_Details",
+                "description": "Update entity in entity set Order_Details",
                 "tags": [
                     "Order_Details"
                 ],
@@ -3318,8 +3282,8 @@
                 }
             },
             "delete": {
-                "summary": "Delete entity in EntitySet Order_Details",
-                "description": "Delete entity in EntitySet Order_Details",
+                "summary": "Delete entity from Order_Details",
+                "description": "Delete entity from entity set Order_Details",
                 "tags": [
                     "Order_Details"
                 ],
@@ -3362,7 +3326,7 @@
         },
         "/Orders": {
             "get": {
-                "summary": "Get entities from entity set Orders",
+                "summary": "Get entities from Orders",
                 "description": "Get entities from entity set Orders",
                 "tags": [
                     "Orders"
@@ -3491,7 +3455,7 @@
                 }
             },
             "post": {
-                "summary": "Post a new entity to entity set Orders",
+                "summary": "Add new entity to Orders",
                 "description": "Post a new entity to entity set Orders",
                 "tags": [
                     "Orders"
@@ -3524,7 +3488,7 @@
         },
         "/Orders({OrderID})": {
             "get": {
-                "summary": "Get entity from Orders by key.",
+                "summary": "Get entity from Orders by key",
                 "description": "Returns the entity with the key from Orders",
                 "tags": [
                     "Orders"
@@ -3597,8 +3561,8 @@
                 }
             },
             "patch": {
-                "summary": "Update entity in EntitySet Orders",
-                "description": "Update entity in EntitySet Orders",
+                "summary": "Update entity in Orders",
+                "description": "Update entity in entity set Orders",
                 "tags": [
                     "Orders"
                 ],
@@ -3633,8 +3597,8 @@
                 }
             },
             "delete": {
-                "summary": "Delete entity in EntitySet Orders",
-                "description": "Delete entity in EntitySet Orders",
+                "summary": "Delete entity from Orders",
+                "description": "Delete entity from entity set Orders",
                 "tags": [
                     "Orders"
                 ],
@@ -3669,7 +3633,7 @@
         },
         "/Products": {
             "get": {
-                "summary": "Get entities from entity set Products",
+                "summary": "Get entities from Products",
                 "description": "Get entities from entity set Products",
                 "tags": [
                     "Products"
@@ -3785,7 +3749,7 @@
                 }
             },
             "post": {
-                "summary": "Post a new entity to entity set Products",
+                "summary": "Add new entity to Products",
                 "description": "Post a new entity to entity set Products",
                 "tags": [
                     "Products"
@@ -3818,7 +3782,7 @@
         },
         "/Products({ProductID})": {
             "get": {
-                "summary": "Get entity from Products by key.",
+                "summary": "Get entity from Products by key",
                 "description": "Returns the entity with the key from Products",
                 "tags": [
                     "Products"
@@ -3886,8 +3850,8 @@
                 }
             },
             "patch": {
-                "summary": "Update entity in EntitySet Products",
-                "description": "Update entity in EntitySet Products",
+                "summary": "Update entity in Products",
+                "description": "Update entity in entity set Products",
                 "tags": [
                     "Products"
                 ],
@@ -3922,8 +3886,8 @@
                 }
             },
             "delete": {
-                "summary": "Delete entity in EntitySet Products",
-                "description": "Delete entity in EntitySet Products",
+                "summary": "Delete entity from Products",
+                "description": "Delete entity from entity set Products",
                 "tags": [
                     "Products"
                 ],
@@ -3958,7 +3922,7 @@
         },
         "/Regions": {
             "get": {
-                "summary": "Get entities from entity set Regions",
+                "summary": "Get entities from Regions",
                 "description": "Get entities from entity set Regions",
                 "tags": [
                     "Regions"
@@ -4048,7 +4012,7 @@
                 }
             },
             "post": {
-                "summary": "Post a new entity to entity set Regions",
+                "summary": "Add new entity to Regions",
                 "description": "Post a new entity to entity set Regions",
                 "tags": [
                     "Regions"
@@ -4081,7 +4045,7 @@
         },
         "/Regions({RegionID})": {
             "get": {
-                "summary": "Get entity from Regions by key.",
+                "summary": "Get entity from Regions by key",
                 "description": "Returns the entity with the key from Regions",
                 "tags": [
                     "Regions"
@@ -4139,8 +4103,8 @@
                 }
             },
             "patch": {
-                "summary": "Update entity in EntitySet Regions",
-                "description": "Update entity in EntitySet Regions",
+                "summary": "Update entity in Regions",
+                "description": "Update entity in entity set Regions",
                 "tags": [
                     "Regions"
                 ],
@@ -4175,8 +4139,8 @@
                 }
             },
             "delete": {
-                "summary": "Delete entity in EntitySet Regions",
-                "description": "Delete entity in EntitySet Regions",
+                "summary": "Delete entity from Regions",
+                "description": "Delete entity from entity set Regions",
                 "tags": [
                     "Regions"
                 ],
@@ -4211,7 +4175,7 @@
         },
         "/Shippers": {
             "get": {
-                "summary": "Get entities from entity set Shippers",
+                "summary": "Get entities from Shippers",
                 "description": "Get entities from entity set Shippers",
                 "tags": [
                     "Shippers"
@@ -4304,7 +4268,7 @@
                 }
             },
             "post": {
-                "summary": "Post a new entity to entity set Shippers",
+                "summary": "Add new entity to Shippers",
                 "description": "Post a new entity to entity set Shippers",
                 "tags": [
                     "Shippers"
@@ -4337,7 +4301,7 @@
         },
         "/Shippers({ShipperID})": {
             "get": {
-                "summary": "Get entity from Shippers by key.",
+                "summary": "Get entity from Shippers by key",
                 "description": "Returns the entity with the key from Shippers",
                 "tags": [
                     "Shippers"
@@ -4396,8 +4360,8 @@
                 }
             },
             "patch": {
-                "summary": "Update entity in EntitySet Shippers",
-                "description": "Update entity in EntitySet Shippers",
+                "summary": "Update entity in Shippers",
+                "description": "Update entity in entity set Shippers",
                 "tags": [
                     "Shippers"
                 ],
@@ -4432,8 +4396,8 @@
                 }
             },
             "delete": {
-                "summary": "Delete entity in EntitySet Shippers",
-                "description": "Delete entity in EntitySet Shippers",
+                "summary": "Delete entity from Shippers",
+                "description": "Delete entity from entity set Shippers",
                 "tags": [
                     "Shippers"
                 ],
@@ -4468,7 +4432,7 @@
         },
         "/Suppliers": {
             "get": {
-                "summary": "Get entities from entity set Suppliers",
+                "summary": "Get entities from Suppliers",
                 "description": "Get entities from entity set Suppliers",
                 "tags": [
                     "Suppliers"
@@ -4588,7 +4552,7 @@
                 }
             },
             "post": {
-                "summary": "Post a new entity to entity set Suppliers",
+                "summary": "Add new entity to Suppliers",
                 "description": "Post a new entity to entity set Suppliers",
                 "tags": [
                     "Suppliers"
@@ -4621,7 +4585,7 @@
         },
         "/Suppliers({SupplierID})": {
             "get": {
-                "summary": "Get entity from Suppliers by key.",
+                "summary": "Get entity from Suppliers by key",
                 "description": "Returns the entity with the key from Suppliers",
                 "tags": [
                     "Suppliers"
@@ -4689,8 +4653,8 @@
                 }
             },
             "patch": {
-                "summary": "Update entity in EntitySet Suppliers",
-                "description": "Update entity in EntitySet Suppliers",
+                "summary": "Update entity in Suppliers",
+                "description": "Update entity in entity set Suppliers",
                 "tags": [
                     "Suppliers"
                 ],
@@ -4725,8 +4689,8 @@
                 }
             },
             "delete": {
-                "summary": "Delete entity in EntitySet Suppliers",
-                "description": "Delete entity in EntitySet Suppliers",
+                "summary": "Delete entity from Suppliers",
+                "description": "Delete entity from entity set Suppliers",
                 "tags": [
                     "Suppliers"
                 ],
@@ -4761,7 +4725,7 @@
         },
         "/Territories": {
             "get": {
-                "summary": "Get entities from entity set Territories",
+                "summary": "Get entities from Territories",
                 "description": "Get entities from entity set Territories",
                 "tags": [
                     "Territories"
@@ -4855,7 +4819,7 @@
                 }
             },
             "post": {
-                "summary": "Post a new entity to entity set Territories",
+                "summary": "Add new entity to Territories",
                 "description": "Post a new entity to entity set Territories",
                 "tags": [
                     "Territories"
@@ -4888,7 +4852,7 @@
         },
         "/Territories('{TerritoryID}')": {
             "get": {
-                "summary": "Get entity from Territories by key.",
+                "summary": "Get entity from Territories by key",
                 "description": "Returns the entity with the key from Territories",
                 "tags": [
                     "Territories"
@@ -4947,8 +4911,8 @@
                 }
             },
             "patch": {
-                "summary": "Update entity in EntitySet Territories",
-                "description": "Update entity in EntitySet Territories",
+                "summary": "Update entity in Territories",
+                "description": "Update entity in entity set Territories",
                 "tags": [
                     "Territories"
                 ],
@@ -4982,8 +4946,8 @@
                 }
             },
             "delete": {
-                "summary": "Delete entity in EntitySet Territories",
-                "description": "Delete entity in EntitySet Territories",
+                "summary": "Delete entity from Territories",
+                "description": "Delete entity from entity set Territories",
                 "tags": [
                     "Territories"
                 ],
@@ -5017,7 +4981,7 @@
         },
         "/Alphabetical_list_of_products": {
             "get": {
-                "summary": "Get entities from entity set Alphabetical_list_of_products",
+                "summary": "Get entities from Alphabetical_list_of_products",
                 "description": "Get entities from entity set Alphabetical_list_of_products",
                 "tags": [
                     "Alphabetical_list_of_products"
@@ -5121,7 +5085,7 @@
                 }
             },
             "post": {
-                "summary": "Post a new entity to entity set Alphabetical_list_of_products",
+                "summary": "Add new entity to Alphabetical_list_of_products",
                 "description": "Post a new entity to entity set Alphabetical_list_of_products",
                 "tags": [
                     "Alphabetical_list_of_products"
@@ -5154,7 +5118,7 @@
         },
         "/Alphabetical_list_of_products(CategoryName='{CategoryName}',Discontinued='{Discontinued}',ProductID={ProductID},ProductName='{ProductName}')": {
             "get": {
-                "summary": "Get entity from Alphabetical_list_of_products by key.",
+                "summary": "Get entity from Alphabetical_list_of_products by key",
                 "description": "Returns the entity with the key from Alphabetical_list_of_products",
                 "tags": [
                     "Alphabetical_list_of_products"
@@ -5229,8 +5193,8 @@
                 }
             },
             "patch": {
-                "summary": "Update entity in EntitySet Alphabetical_list_of_products",
-                "description": "Update entity in EntitySet Alphabetical_list_of_products",
+                "summary": "Update entity in Alphabetical_list_of_products",
+                "description": "Update entity in entity set Alphabetical_list_of_products",
                 "tags": [
                     "Alphabetical_list_of_products"
                 ],
@@ -5286,8 +5250,8 @@
                 }
             },
             "delete": {
-                "summary": "Delete entity in EntitySet Alphabetical_list_of_products",
-                "description": "Delete entity in EntitySet Alphabetical_list_of_products",
+                "summary": "Delete entity from Alphabetical_list_of_products",
+                "description": "Delete entity from entity set Alphabetical_list_of_products",
                 "tags": [
                     "Alphabetical_list_of_products"
                 ],
@@ -5343,7 +5307,7 @@
         },
         "/Category_Sales_for_1997": {
             "get": {
-                "summary": "Get entities from entity set Category_Sales_for_1997",
+                "summary": "Get entities from Category_Sales_for_1997",
                 "description": "Get entities from entity set Category_Sales_for_1997",
                 "tags": [
                     "Category_Sales_for_1997"
@@ -5420,7 +5384,7 @@
                 }
             },
             "post": {
-                "summary": "Post a new entity to entity set Category_Sales_for_1997",
+                "summary": "Add new entity to Category_Sales_for_1997",
                 "description": "Post a new entity to entity set Category_Sales_for_1997",
                 "tags": [
                     "Category_Sales_for_1997"
@@ -5453,7 +5417,7 @@
         },
         "/Category_Sales_for_1997('{CategoryName}')": {
             "get": {
-                "summary": "Get entity from Category_Sales_for_1997 by key.",
+                "summary": "Get entity from Category_Sales_for_1997 by key",
                 "description": "Returns the entity with the key from Category_Sales_for_1997",
                 "tags": [
                     "Category_Sales_for_1997"
@@ -5497,8 +5461,8 @@
                 }
             },
             "patch": {
-                "summary": "Update entity in EntitySet Category_Sales_for_1997",
-                "description": "Update entity in EntitySet Category_Sales_for_1997",
+                "summary": "Update entity in Category_Sales_for_1997",
+                "description": "Update entity in entity set Category_Sales_for_1997",
                 "tags": [
                     "Category_Sales_for_1997"
                 ],
@@ -5532,8 +5496,8 @@
                 }
             },
             "delete": {
-                "summary": "Delete entity in EntitySet Category_Sales_for_1997",
-                "description": "Delete entity in EntitySet Category_Sales_for_1997",
+                "summary": "Delete entity from Category_Sales_for_1997",
+                "description": "Delete entity from entity set Category_Sales_for_1997",
                 "tags": [
                     "Category_Sales_for_1997"
                 ],
@@ -5567,7 +5531,7 @@
         },
         "/Current_Product_Lists": {
             "get": {
-                "summary": "Get entities from entity set Current_Product_Lists",
+                "summary": "Get entities from Current_Product_Lists",
                 "description": "Get entities from entity set Current_Product_Lists",
                 "tags": [
                     "Current_Product_Lists"
@@ -5644,7 +5608,7 @@
                 }
             },
             "post": {
-                "summary": "Post a new entity to entity set Current_Product_Lists",
+                "summary": "Add new entity to Current_Product_Lists",
                 "description": "Post a new entity to entity set Current_Product_Lists",
                 "tags": [
                     "Current_Product_Lists"
@@ -5677,7 +5641,7 @@
         },
         "/Current_Product_Lists(ProductID={ProductID},ProductName='{ProductName}')": {
             "get": {
-                "summary": "Get entity from Current_Product_Lists by key.",
+                "summary": "Get entity from Current_Product_Lists by key",
                 "description": "Returns the entity with the key from Current_Product_Lists",
                 "tags": [
                     "Current_Product_Lists"
@@ -5729,8 +5693,8 @@
                 }
             },
             "patch": {
-                "summary": "Update entity in EntitySet Current_Product_Lists",
-                "description": "Update entity in EntitySet Current_Product_Lists",
+                "summary": "Update entity in Current_Product_Lists",
+                "description": "Update entity in entity set Current_Product_Lists",
                 "tags": [
                     "Current_Product_Lists"
                 ],
@@ -5772,8 +5736,8 @@
                 }
             },
             "delete": {
-                "summary": "Delete entity in EntitySet Current_Product_Lists",
-                "description": "Delete entity in EntitySet Current_Product_Lists",
+                "summary": "Delete entity from Current_Product_Lists",
+                "description": "Delete entity from entity set Current_Product_Lists",
                 "tags": [
                     "Current_Product_Lists"
                 ],
@@ -5815,7 +5779,7 @@
         },
         "/Customer_and_Suppliers_by_Cities": {
             "get": {
-                "summary": "Get entities from entity set Customer_and_Suppliers_by_Cities",
+                "summary": "Get entities from Customer_and_Suppliers_by_Cities",
                 "description": "Get entities from entity set Customer_and_Suppliers_by_Cities",
                 "tags": [
                     "Customer_and_Suppliers_by_Cities"
@@ -5898,7 +5862,7 @@
                 }
             },
             "post": {
-                "summary": "Post a new entity to entity set Customer_and_Suppliers_by_Cities",
+                "summary": "Add new entity to Customer_and_Suppliers_by_Cities",
                 "description": "Post a new entity to entity set Customer_and_Suppliers_by_Cities",
                 "tags": [
                     "Customer_and_Suppliers_by_Cities"
@@ -5931,7 +5895,7 @@
         },
         "/Customer_and_Suppliers_by_Cities(CompanyName='{CompanyName}',Relationship='{Relationship}')": {
             "get": {
-                "summary": "Get entity from Customer_and_Suppliers_by_Cities by key.",
+                "summary": "Get entity from Customer_and_Suppliers_by_Cities by key",
                 "description": "Returns the entity with the key from Customer_and_Suppliers_by_Cities",
                 "tags": [
                     "Customer_and_Suppliers_by_Cities"
@@ -5984,8 +5948,8 @@
                 }
             },
             "patch": {
-                "summary": "Update entity in EntitySet Customer_and_Suppliers_by_Cities",
-                "description": "Update entity in EntitySet Customer_and_Suppliers_by_Cities",
+                "summary": "Update entity in Customer_and_Suppliers_by_Cities",
+                "description": "Update entity in entity set Customer_and_Suppliers_by_Cities",
                 "tags": [
                     "Customer_and_Suppliers_by_Cities"
                 ],
@@ -6026,8 +5990,8 @@
                 }
             },
             "delete": {
-                "summary": "Delete entity in EntitySet Customer_and_Suppliers_by_Cities",
-                "description": "Delete entity in EntitySet Customer_and_Suppliers_by_Cities",
+                "summary": "Delete entity from Customer_and_Suppliers_by_Cities",
+                "description": "Delete entity from entity set Customer_and_Suppliers_by_Cities",
                 "tags": [
                     "Customer_and_Suppliers_by_Cities"
                 ],
@@ -6068,7 +6032,7 @@
         },
         "/Invoices": {
             "get": {
-                "summary": "Get entities from entity set Invoices",
+                "summary": "Get entities from Invoices",
                 "description": "Get entities from entity set Invoices",
                 "tags": [
                     "Invoices"
@@ -6217,7 +6181,7 @@
                 }
             },
             "post": {
-                "summary": "Post a new entity to entity set Invoices",
+                "summary": "Add new entity to Invoices",
                 "description": "Post a new entity to entity set Invoices",
                 "tags": [
                     "Invoices"
@@ -6250,7 +6214,7 @@
         },
         "/Invoices(CustomerName='{CustomerName}',Discount={Discount},OrderID={OrderID},ProductID={ProductID},ProductName='{ProductName}',Quantity={Quantity},Salesperson='{Salesperson}',ShipperName='{ShipperName}',UnitPrice='{UnitPrice}')": {
             "get": {
-                "summary": "Get entity from Invoices by key.",
+                "summary": "Get entity from Invoices by key",
                 "description": "Returns the entity with the key from Invoices",
                 "tags": [
                     "Invoices"
@@ -6376,8 +6340,8 @@
                 }
             },
             "patch": {
-                "summary": "Update entity in EntitySet Invoices",
-                "description": "Update entity in EntitySet Invoices",
+                "summary": "Update entity in Invoices",
+                "description": "Update entity in entity set Invoices",
                 "tags": [
                     "Invoices"
                 ],
@@ -6469,8 +6433,8 @@
                 }
             },
             "delete": {
-                "summary": "Delete entity in EntitySet Invoices",
-                "description": "Delete entity in EntitySet Invoices",
+                "summary": "Delete entity from Invoices",
+                "description": "Delete entity from entity set Invoices",
                 "tags": [
                     "Invoices"
                 ],
@@ -6562,7 +6526,7 @@
         },
         "/Order_Details_Extendeds": {
             "get": {
-                "summary": "Get entities from entity set Order_Details_Extendeds",
+                "summary": "Get entities from Order_Details_Extendeds",
                 "description": "Get entities from entity set Order_Details_Extendeds",
                 "tags": [
                     "Order_Details_Extendeds"
@@ -6654,7 +6618,7 @@
                 }
             },
             "post": {
-                "summary": "Post a new entity to entity set Order_Details_Extendeds",
+                "summary": "Add new entity to Order_Details_Extendeds",
                 "description": "Post a new entity to entity set Order_Details_Extendeds",
                 "tags": [
                     "Order_Details_Extendeds"
@@ -6687,7 +6651,7 @@
         },
         "/Order_Details_Extendeds(Discount={Discount},OrderID={OrderID},ProductID={ProductID},ProductName='{ProductName}',Quantity={Quantity},UnitPrice='{UnitPrice}')": {
             "get": {
-                "summary": "Get entity from Order_Details_Extendeds by key.",
+                "summary": "Get entity from Order_Details_Extendeds by key",
                 "description": "Returns the entity with the key from Order_Details_Extendeds",
                 "tags": [
                     "Order_Details_Extendeds"
@@ -6773,8 +6737,8 @@
                 }
             },
             "patch": {
-                "summary": "Update entity in EntitySet Order_Details_Extendeds",
-                "description": "Update entity in EntitySet Order_Details_Extendeds",
+                "summary": "Update entity in Order_Details_Extendeds",
+                "description": "Update entity in entity set Order_Details_Extendeds",
                 "tags": [
                     "Order_Details_Extendeds"
                 ],
@@ -6845,8 +6809,8 @@
                 }
             },
             "delete": {
-                "summary": "Delete entity in EntitySet Order_Details_Extendeds",
-                "description": "Delete entity in EntitySet Order_Details_Extendeds",
+                "summary": "Delete entity from Order_Details_Extendeds",
+                "description": "Delete entity from entity set Order_Details_Extendeds",
                 "tags": [
                     "Order_Details_Extendeds"
                 ],
@@ -6917,7 +6881,7 @@
         },
         "/Order_Subtotals": {
             "get": {
-                "summary": "Get entities from entity set Order_Subtotals",
+                "summary": "Get entities from Order_Subtotals",
                 "description": "Get entities from entity set Order_Subtotals",
                 "tags": [
                     "Order_Subtotals"
@@ -6994,7 +6958,7 @@
                 }
             },
             "post": {
-                "summary": "Post a new entity to entity set Order_Subtotals",
+                "summary": "Add new entity to Order_Subtotals",
                 "description": "Post a new entity to entity set Order_Subtotals",
                 "tags": [
                     "Order_Subtotals"
@@ -7027,7 +6991,7 @@
         },
         "/Order_Subtotals({OrderID})": {
             "get": {
-                "summary": "Get entity from Order_Subtotals by key.",
+                "summary": "Get entity from Order_Subtotals by key",
                 "description": "Returns the entity with the key from Order_Subtotals",
                 "tags": [
                     "Order_Subtotals"
@@ -7072,8 +7036,8 @@
                 }
             },
             "patch": {
-                "summary": "Update entity in EntitySet Order_Subtotals",
-                "description": "Update entity in EntitySet Order_Subtotals",
+                "summary": "Update entity in Order_Subtotals",
+                "description": "Update entity in entity set Order_Subtotals",
                 "tags": [
                     "Order_Subtotals"
                 ],
@@ -7108,8 +7072,8 @@
                 }
             },
             "delete": {
-                "summary": "Delete entity in EntitySet Order_Subtotals",
-                "description": "Delete entity in EntitySet Order_Subtotals",
+                "summary": "Delete entity from Order_Subtotals",
+                "description": "Delete entity from entity set Order_Subtotals",
                 "tags": [
                     "Order_Subtotals"
                 ],
@@ -7144,7 +7108,7 @@
         },
         "/Orders_Qries": {
             "get": {
-                "summary": "Get entities from entity set Orders_Qries",
+                "summary": "Get entities from Orders_Qries",
                 "description": "Get entities from entity set Orders_Qries",
                 "tags": [
                     "Orders_Qries"
@@ -7275,7 +7239,7 @@
                 }
             },
             "post": {
-                "summary": "Post a new entity to entity set Orders_Qries",
+                "summary": "Add new entity to Orders_Qries",
                 "description": "Post a new entity to entity set Orders_Qries",
                 "tags": [
                     "Orders_Qries"
@@ -7308,7 +7272,7 @@
         },
         "/Orders_Qries(CompanyName='{CompanyName}',OrderID={OrderID})": {
             "get": {
-                "summary": "Get entity from Orders_Qries by key.",
+                "summary": "Get entity from Orders_Qries by key",
                 "description": "Returns the entity with the key from Orders_Qries",
                 "tags": [
                     "Orders_Qries"
@@ -7378,8 +7342,8 @@
                 }
             },
             "patch": {
-                "summary": "Update entity in EntitySet Orders_Qries",
-                "description": "Update entity in EntitySet Orders_Qries",
+                "summary": "Update entity in Orders_Qries",
+                "description": "Update entity in entity set Orders_Qries",
                 "tags": [
                     "Orders_Qries"
                 ],
@@ -7421,8 +7385,8 @@
                 }
             },
             "delete": {
-                "summary": "Delete entity in EntitySet Orders_Qries",
-                "description": "Delete entity in EntitySet Orders_Qries",
+                "summary": "Delete entity from Orders_Qries",
+                "description": "Delete entity from entity set Orders_Qries",
                 "tags": [
                     "Orders_Qries"
                 ],
@@ -7464,7 +7428,7 @@
         },
         "/Product_Sales_for_1997": {
             "get": {
-                "summary": "Get entities from entity set Product_Sales_for_1997",
+                "summary": "Get entities from Product_Sales_for_1997",
                 "description": "Get entities from entity set Product_Sales_for_1997",
                 "tags": [
                     "Product_Sales_for_1997"
@@ -7544,7 +7508,7 @@
                 }
             },
             "post": {
-                "summary": "Post a new entity to entity set Product_Sales_for_1997",
+                "summary": "Add new entity to Product_Sales_for_1997",
                 "description": "Post a new entity to entity set Product_Sales_for_1997",
                 "tags": [
                     "Product_Sales_for_1997"
@@ -7577,7 +7541,7 @@
         },
         "/Product_Sales_for_1997(CategoryName='{CategoryName}',ProductName='{ProductName}')": {
             "get": {
-                "summary": "Get entity from Product_Sales_for_1997 by key.",
+                "summary": "Get entity from Product_Sales_for_1997 by key",
                 "description": "Returns the entity with the key from Product_Sales_for_1997",
                 "tags": [
                     "Product_Sales_for_1997"
@@ -7629,8 +7593,8 @@
                 }
             },
             "patch": {
-                "summary": "Update entity in EntitySet Product_Sales_for_1997",
-                "description": "Update entity in EntitySet Product_Sales_for_1997",
+                "summary": "Update entity in Product_Sales_for_1997",
+                "description": "Update entity in entity set Product_Sales_for_1997",
                 "tags": [
                     "Product_Sales_for_1997"
                 ],
@@ -7671,8 +7635,8 @@
                 }
             },
             "delete": {
-                "summary": "Delete entity in EntitySet Product_Sales_for_1997",
-                "description": "Delete entity in EntitySet Product_Sales_for_1997",
+                "summary": "Delete entity from Product_Sales_for_1997",
+                "description": "Delete entity from entity set Product_Sales_for_1997",
                 "tags": [
                     "Product_Sales_for_1997"
                 ],
@@ -7713,7 +7677,7 @@
         },
         "/Products_Above_Average_Prices": {
             "get": {
-                "summary": "Get entities from entity set Products_Above_Average_Prices",
+                "summary": "Get entities from Products_Above_Average_Prices",
                 "description": "Get entities from entity set Products_Above_Average_Prices",
                 "tags": [
                     "Products_Above_Average_Prices"
@@ -7790,7 +7754,7 @@
                 }
             },
             "post": {
-                "summary": "Post a new entity to entity set Products_Above_Average_Prices",
+                "summary": "Add new entity to Products_Above_Average_Prices",
                 "description": "Post a new entity to entity set Products_Above_Average_Prices",
                 "tags": [
                     "Products_Above_Average_Prices"
@@ -7823,7 +7787,7 @@
         },
         "/Products_Above_Average_Prices('{ProductName}')": {
             "get": {
-                "summary": "Get entity from Products_Above_Average_Prices by key.",
+                "summary": "Get entity from Products_Above_Average_Prices by key",
                 "description": "Returns the entity with the key from Products_Above_Average_Prices",
                 "tags": [
                     "Products_Above_Average_Prices"
@@ -7867,8 +7831,8 @@
                 }
             },
             "patch": {
-                "summary": "Update entity in EntitySet Products_Above_Average_Prices",
-                "description": "Update entity in EntitySet Products_Above_Average_Prices",
+                "summary": "Update entity in Products_Above_Average_Prices",
+                "description": "Update entity in entity set Products_Above_Average_Prices",
                 "tags": [
                     "Products_Above_Average_Prices"
                 ],
@@ -7902,8 +7866,8 @@
                 }
             },
             "delete": {
-                "summary": "Delete entity in EntitySet Products_Above_Average_Prices",
-                "description": "Delete entity in EntitySet Products_Above_Average_Prices",
+                "summary": "Delete entity from Products_Above_Average_Prices",
+                "description": "Delete entity from entity set Products_Above_Average_Prices",
                 "tags": [
                     "Products_Above_Average_Prices"
                 ],
@@ -7937,7 +7901,7 @@
         },
         "/Products_by_Categories": {
             "get": {
-                "summary": "Get entities from entity set Products_by_Categories",
+                "summary": "Get entities from Products_by_Categories",
                 "description": "Get entities from entity set Products_by_Categories",
                 "tags": [
                     "Products_by_Categories"
@@ -8023,7 +7987,7 @@
                 }
             },
             "post": {
-                "summary": "Post a new entity to entity set Products_by_Categories",
+                "summary": "Add new entity to Products_by_Categories",
                 "description": "Post a new entity to entity set Products_by_Categories",
                 "tags": [
                     "Products_by_Categories"
@@ -8056,7 +8020,7 @@
         },
         "/Products_by_Categories(CategoryName='{CategoryName}',Discontinued='{Discontinued}',ProductName='{ProductName}')": {
             "get": {
-                "summary": "Get entity from Products_by_Categories by key.",
+                "summary": "Get entity from Products_by_Categories by key",
                 "description": "Returns the entity with the key from Products_by_Categories",
                 "tags": [
                     "Products_by_Categories"
@@ -8117,8 +8081,8 @@
                 }
             },
             "patch": {
-                "summary": "Update entity in EntitySet Products_by_Categories",
-                "description": "Update entity in EntitySet Products_by_Categories",
+                "summary": "Update entity in Products_by_Categories",
+                "description": "Update entity in entity set Products_by_Categories",
                 "tags": [
                     "Products_by_Categories"
                 ],
@@ -8166,8 +8130,8 @@
                 }
             },
             "delete": {
-                "summary": "Delete entity in EntitySet Products_by_Categories",
-                "description": "Delete entity in EntitySet Products_by_Categories",
+                "summary": "Delete entity from Products_by_Categories",
+                "description": "Delete entity from entity set Products_by_Categories",
                 "tags": [
                     "Products_by_Categories"
                 ],
@@ -8215,7 +8179,7 @@
         },
         "/Sales_by_Categories": {
             "get": {
-                "summary": "Get entities from entity set Sales_by_Categories",
+                "summary": "Get entities from Sales_by_Categories",
                 "description": "Get entities from entity set Sales_by_Categories",
                 "tags": [
                     "Sales_by_Categories"
@@ -8298,7 +8262,7 @@
                 }
             },
             "post": {
-                "summary": "Post a new entity to entity set Sales_by_Categories",
+                "summary": "Add new entity to Sales_by_Categories",
                 "description": "Post a new entity to entity set Sales_by_Categories",
                 "tags": [
                     "Sales_by_Categories"
@@ -8331,7 +8295,7 @@
         },
         "/Sales_by_Categories(CategoryID={CategoryID},CategoryName='{CategoryName}',ProductName='{ProductName}')": {
             "get": {
-                "summary": "Get entity from Sales_by_Categories by key.",
+                "summary": "Get entity from Sales_by_Categories by key",
                 "description": "Returns the entity with the key from Sales_by_Categories",
                 "tags": [
                     "Sales_by_Categories"
@@ -8392,8 +8356,8 @@
                 }
             },
             "patch": {
-                "summary": "Update entity in EntitySet Sales_by_Categories",
-                "description": "Update entity in EntitySet Sales_by_Categories",
+                "summary": "Update entity in Sales_by_Categories",
+                "description": "Update entity in entity set Sales_by_Categories",
                 "tags": [
                     "Sales_by_Categories"
                 ],
@@ -8442,8 +8406,8 @@
                 }
             },
             "delete": {
-                "summary": "Delete entity in EntitySet Sales_by_Categories",
-                "description": "Delete entity in EntitySet Sales_by_Categories",
+                "summary": "Delete entity from Sales_by_Categories",
+                "description": "Delete entity from entity set Sales_by_Categories",
                 "tags": [
                     "Sales_by_Categories"
                 ],
@@ -8492,7 +8456,7 @@
         },
         "/Sales_Totals_by_Amounts": {
             "get": {
-                "summary": "Get entities from entity set Sales_Totals_by_Amounts",
+                "summary": "Get entities from Sales_Totals_by_Amounts",
                 "description": "Get entities from entity set Sales_Totals_by_Amounts",
                 "tags": [
                     "Sales_Totals_by_Amounts"
@@ -8575,7 +8539,7 @@
                 }
             },
             "post": {
-                "summary": "Post a new entity to entity set Sales_Totals_by_Amounts",
+                "summary": "Add new entity to Sales_Totals_by_Amounts",
                 "description": "Post a new entity to entity set Sales_Totals_by_Amounts",
                 "tags": [
                     "Sales_Totals_by_Amounts"
@@ -8608,7 +8572,7 @@
         },
         "/Sales_Totals_by_Amounts(CompanyName='{CompanyName}',OrderID={OrderID})": {
             "get": {
-                "summary": "Get entity from Sales_Totals_by_Amounts by key.",
+                "summary": "Get entity from Sales_Totals_by_Amounts by key",
                 "description": "Returns the entity with the key from Sales_Totals_by_Amounts",
                 "tags": [
                     "Sales_Totals_by_Amounts"
@@ -8662,8 +8626,8 @@
                 }
             },
             "patch": {
-                "summary": "Update entity in EntitySet Sales_Totals_by_Amounts",
-                "description": "Update entity in EntitySet Sales_Totals_by_Amounts",
+                "summary": "Update entity in Sales_Totals_by_Amounts",
+                "description": "Update entity in entity set Sales_Totals_by_Amounts",
                 "tags": [
                     "Sales_Totals_by_Amounts"
                 ],
@@ -8705,8 +8669,8 @@
                 }
             },
             "delete": {
-                "summary": "Delete entity in EntitySet Sales_Totals_by_Amounts",
-                "description": "Delete entity in EntitySet Sales_Totals_by_Amounts",
+                "summary": "Delete entity from Sales_Totals_by_Amounts",
+                "description": "Delete entity from entity set Sales_Totals_by_Amounts",
                 "tags": [
                     "Sales_Totals_by_Amounts"
                 ],
@@ -8748,7 +8712,7 @@
         },
         "/Summary_of_Sales_by_Quarters": {
             "get": {
-                "summary": "Get entities from entity set Summary_of_Sales_by_Quarters",
+                "summary": "Get entities from Summary_of_Sales_by_Quarters",
                 "description": "Get entities from entity set Summary_of_Sales_by_Quarters",
                 "tags": [
                     "Summary_of_Sales_by_Quarters"
@@ -8828,7 +8792,7 @@
                 }
             },
             "post": {
-                "summary": "Post a new entity to entity set Summary_of_Sales_by_Quarters",
+                "summary": "Add new entity to Summary_of_Sales_by_Quarters",
                 "description": "Post a new entity to entity set Summary_of_Sales_by_Quarters",
                 "tags": [
                     "Summary_of_Sales_by_Quarters"
@@ -8861,7 +8825,7 @@
         },
         "/Summary_of_Sales_by_Quarters({OrderID})": {
             "get": {
-                "summary": "Get entity from Summary_of_Sales_by_Quarters by key.",
+                "summary": "Get entity from Summary_of_Sales_by_Quarters by key",
                 "description": "Returns the entity with the key from Summary_of_Sales_by_Quarters",
                 "tags": [
                     "Summary_of_Sales_by_Quarters"
@@ -8907,8 +8871,8 @@
                 }
             },
             "patch": {
-                "summary": "Update entity in EntitySet Summary_of_Sales_by_Quarters",
-                "description": "Update entity in EntitySet Summary_of_Sales_by_Quarters",
+                "summary": "Update entity in Summary_of_Sales_by_Quarters",
+                "description": "Update entity in entity set Summary_of_Sales_by_Quarters",
                 "tags": [
                     "Summary_of_Sales_by_Quarters"
                 ],
@@ -8943,8 +8907,8 @@
                 }
             },
             "delete": {
-                "summary": "Delete entity in EntitySet Summary_of_Sales_by_Quarters",
-                "description": "Delete entity in EntitySet Summary_of_Sales_by_Quarters",
+                "summary": "Delete entity from Summary_of_Sales_by_Quarters",
+                "description": "Delete entity from entity set Summary_of_Sales_by_Quarters",
                 "tags": [
                     "Summary_of_Sales_by_Quarters"
                 ],
@@ -8979,7 +8943,7 @@
         },
         "/Summary_of_Sales_by_Years": {
             "get": {
-                "summary": "Get entities from entity set Summary_of_Sales_by_Years",
+                "summary": "Get entities from Summary_of_Sales_by_Years",
                 "description": "Get entities from entity set Summary_of_Sales_by_Years",
                 "tags": [
                     "Summary_of_Sales_by_Years"
@@ -9059,7 +9023,7 @@
                 }
             },
             "post": {
-                "summary": "Post a new entity to entity set Summary_of_Sales_by_Years",
+                "summary": "Add new entity to Summary_of_Sales_by_Years",
                 "description": "Post a new entity to entity set Summary_of_Sales_by_Years",
                 "tags": [
                     "Summary_of_Sales_by_Years"
@@ -9092,7 +9056,7 @@
         },
         "/Summary_of_Sales_by_Years({OrderID})": {
             "get": {
-                "summary": "Get entity from Summary_of_Sales_by_Years by key.",
+                "summary": "Get entity from Summary_of_Sales_by_Years by key",
                 "description": "Returns the entity with the key from Summary_of_Sales_by_Years",
                 "tags": [
                     "Summary_of_Sales_by_Years"
@@ -9138,8 +9102,8 @@
                 }
             },
             "patch": {
-                "summary": "Update entity in EntitySet Summary_of_Sales_by_Years",
-                "description": "Update entity in EntitySet Summary_of_Sales_by_Years",
+                "summary": "Update entity in Summary_of_Sales_by_Years",
+                "description": "Update entity in entity set Summary_of_Sales_by_Years",
                 "tags": [
                     "Summary_of_Sales_by_Years"
                 ],
@@ -9174,8 +9138,8 @@
                 }
             },
             "delete": {
-                "summary": "Delete entity in EntitySet Summary_of_Sales_by_Years",
-                "description": "Delete entity in EntitySet Summary_of_Sales_by_Years",
+                "summary": "Delete entity from Summary_of_Sales_by_Years",
+                "description": "Delete entity from entity set Summary_of_Sales_by_Years",
                 "tags": [
                     "Summary_of_Sales_by_Years"
                 ],
@@ -9210,24 +9174,6 @@
         }
     },
     "parameters": {
-        "expand": {
-            "name": "$expand",
-            "in": "query",
-            "description": "Expand related entities, see [OData Expand](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398298)",
-            "type": "string"
-        },
-        "select": {
-            "name": "$select",
-            "in": "query",
-            "description": "Select properties to be returned, see [OData Select](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398297)",
-            "type": "string"
-        },
-        "orderby": {
-            "name": "$orderby",
-            "in": "query",
-            "description": "Order by property values, see [OData Sorting](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398305)",
-            "type": "string"
-        },
         "top": {
             "name": "$top",
             "in": "query",
