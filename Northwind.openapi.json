@@ -3,13 +3,13 @@
     "swagger": "2.0",
     "info": {
         "title": "OData Service for namespace ODataWebExperimental.Northwind.Model",
-        "description": "This OData service is located at http://services.odata.org/V4/Northwind/Northwind.svc/\n\n## Entity Data Model\n![ER Diagram](http://yuml.me/diagram/class/[Category],[Category]-*>[Product],[CustomerDemographic],[CustomerDemographic]-*>[Customer],[Customer],[Customer]-*>[Order],[Customer]-*>[CustomerDemographic],[Employee],[Employee]-*>[Employee],[Employee]-0..1>[Employee],[Employee]-*>[Order],[Employee]-*>[Territory],[Order_Detail],[Order_Detail]-0..1>[Order],[Order_Detail]-0..1>[Product],[Order],[Order]-0..1>[Customer],[Order]-0..1>[Employee],[Order]-*>[Order_Detail],[Order]-0..1>[Shipper],[Product],[Product]-0..1>[Category],[Product]-*>[Order_Detail],[Product]-0..1>[Supplier],[Region],[Region]-*>[Territory],[Shipper],[Shipper]-*>[Order],[Supplier],[Supplier]-*>[Product],[Territory],[Territory]-0..1>[Region],[Territory]-*>[Employee],[Alphabetical_list_of_product],[Category_Sales_for_1997],[Current_Product_List],[Customer_and_Suppliers_by_City],[Invoice],[Order_Details_Extended],[Order_Subtotal],[Orders_Qry],[Product_Sales_for_1997],[Products_Above_Average_Price],[Products_by_Category],[Sales_by_Category],[Sales_Totals_by_Amount],[Summary_of_Sales_by_Quarter],[Summary_of_Sales_by_Year])",
-        "version": "0.1.0"
+        "version": "",
+        "description": "This OData service is located at http://services.odata.org/V4/Northwind/Northwind.svc/\n\n## Entity Data Model\n![ER Diagram](http://yuml.me/diagram/class/[Category],[Category]-*>[Product],[CustomerDemographic],[CustomerDemographic]-*>[Customer],[Customer],[Customer]-*>[Order],[Customer]-*>[CustomerDemographic],[Employee],[Employee]-*>[Employee],[Employee]-0..1>[Employee],[Employee]-*>[Order],[Employee]-*>[Territory],[Order_Detail],[Order_Detail]-0..1>[Order],[Order_Detail]-0..1>[Product],[Order],[Order]-0..1>[Customer],[Order]-0..1>[Employee],[Order]-*>[Order_Detail],[Order]-0..1>[Shipper],[Product],[Product]-0..1>[Category],[Product]-*>[Order_Detail],[Product]-0..1>[Supplier],[Region],[Region]-*>[Territory],[Shipper],[Shipper]-*>[Order],[Supplier],[Supplier]-*>[Product],[Territory],[Territory]-0..1>[Region],[Territory]-*>[Employee],[Alphabetical_list_of_product],[Category_Sales_for_1997],[Current_Product_List],[Customer_and_Suppliers_by_City],[Invoice],[Order_Details_Extended],[Order_Subtotal],[Orders_Qry],[Product_Sales_for_1997],[Products_Above_Average_Price],[Products_by_Category],[Sales_by_Category],[Sales_Totals_by_Amount],[Summary_of_Sales_by_Quarter],[Summary_of_Sales_by_Year])"
     },
-    "host": "services.odata.org",
     "schemes": [
         "http"
     ],
+    "host": "services.odata.org",
     "basePath": "/V4/Northwind/Northwind.svc",
     "consumes": [
         "application/json"
@@ -17,8 +17,89 @@
     "produces": [
         "application/json"
     ],
+    "tags": [
+        {
+            "name": "Categories"
+        },
+        {
+            "name": "CustomerDemographics"
+        },
+        {
+            "name": "Customers"
+        },
+        {
+            "name": "Employees"
+        },
+        {
+            "name": "Order_Details"
+        },
+        {
+            "name": "Orders"
+        },
+        {
+            "name": "Products"
+        },
+        {
+            "name": "Regions"
+        },
+        {
+            "name": "Shippers"
+        },
+        {
+            "name": "Suppliers"
+        },
+        {
+            "name": "Territories"
+        },
+        {
+            "name": "Alphabetical_list_of_products"
+        },
+        {
+            "name": "Category_Sales_for_1997"
+        },
+        {
+            "name": "Current_Product_Lists"
+        },
+        {
+            "name": "Customer_and_Suppliers_by_Cities"
+        },
+        {
+            "name": "Invoices"
+        },
+        {
+            "name": "Order_Details_Extendeds"
+        },
+        {
+            "name": "Order_Subtotals"
+        },
+        {
+            "name": "Orders_Qries"
+        },
+        {
+            "name": "Product_Sales_for_1997"
+        },
+        {
+            "name": "Products_Above_Average_Prices"
+        },
+        {
+            "name": "Products_by_Categories"
+        },
+        {
+            "name": "Sales_by_Categories"
+        },
+        {
+            "name": "Sales_Totals_by_Amounts"
+        },
+        {
+            "name": "Summary_of_Sales_by_Quarters"
+        },
+        {
+            "name": "Summary_of_Sales_by_Years"
+        }
+    ],
     "definitions": {
         "NorthwindModel.Category": {
+            "title": "Category",
             "type": "object",
             "x-keys": [
                 "CategoryID"
@@ -59,6 +140,7 @@
             }
         },
         "NorthwindModel.CustomerDemographic": {
+            "title": "CustomerDemographic",
             "type": "object",
             "x-keys": [
                 "CustomerTypeID"
@@ -87,6 +169,7 @@
             }
         },
         "NorthwindModel.Customer": {
+            "title": "Customer",
             "type": "object",
             "x-keys": [
                 "CustomerID"
@@ -193,6 +276,7 @@
             }
         },
         "NorthwindModel.Employee": {
+            "title": "Employee",
             "type": "object",
             "x-keys": [
                 "EmployeeID"
@@ -371,6 +455,7 @@
             }
         },
         "NorthwindModel.Order_Detail": {
+            "title": "Order_Detail",
             "type": "object",
             "x-keys": [
                 "OrderID",
@@ -431,6 +516,7 @@
             }
         },
         "NorthwindModel.Order": {
+            "title": "Order",
             "type": "object",
             "x-keys": [
                 "OrderID"
@@ -596,6 +682,7 @@
             }
         },
         "NorthwindModel.Product": {
+            "title": "Product",
             "type": "object",
             "x-keys": [
                 "ProductID"
@@ -708,6 +795,7 @@
             }
         },
         "NorthwindModel.Region": {
+            "title": "Region",
             "type": "object",
             "x-keys": [
                 "RegionID"
@@ -733,6 +821,7 @@
             }
         },
         "NorthwindModel.Shipper": {
+            "title": "Shipper",
             "type": "object",
             "x-keys": [
                 "ShipperID"
@@ -766,6 +855,7 @@
             }
         },
         "NorthwindModel.Supplier": {
+            "title": "Supplier",
             "type": "object",
             "x-keys": [
                 "SupplierID"
@@ -870,6 +960,7 @@
             }
         },
         "NorthwindModel.Territory": {
+            "title": "Territory",
             "type": "object",
             "x-keys": [
                 "TerritoryID"
@@ -910,6 +1001,7 @@
             }
         },
         "NorthwindModel.Alphabetical_list_of_product": {
+            "title": "Alphabetical_list_of_product",
             "type": "object",
             "x-keys": [
                 "CategoryName",
@@ -996,6 +1088,7 @@
             }
         },
         "NorthwindModel.Category_Sales_for_1997": {
+            "title": "Category_Sales_for_1997",
             "type": "object",
             "x-keys": [
                 "CategoryName"
@@ -1020,6 +1113,7 @@
             }
         },
         "NorthwindModel.Current_Product_List": {
+            "title": "Current_Product_List",
             "type": "object",
             "x-keys": [
                 "ProductID",
@@ -1037,6 +1131,7 @@
             }
         },
         "NorthwindModel.Customer_and_Suppliers_by_City": {
+            "title": "Customer_and_Suppliers_by_City",
             "type": "object",
             "x-keys": [
                 "CompanyName",
@@ -1071,6 +1166,7 @@
             }
         },
         "NorthwindModel.Invoice": {
+            "title": "Invoice",
             "type": "object",
             "x-keys": [
                 "CustomerName",
@@ -1276,6 +1372,7 @@
             }
         },
         "NorthwindModel.Order_Details_Extended": {
+            "title": "Order_Details_Extended",
             "type": "object",
             "x-keys": [
                 "Discount",
@@ -1334,6 +1431,7 @@
             }
         },
         "NorthwindModel.Order_Subtotal": {
+            "title": "Order_Subtotal",
             "type": "object",
             "x-keys": [
                 "OrderID"
@@ -1358,6 +1456,7 @@
             }
         },
         "NorthwindModel.Orders_Qry": {
+            "title": "Orders_Qry",
             "type": "object",
             "x-keys": [
                 "CompanyName",
@@ -1523,6 +1622,7 @@
             }
         },
         "NorthwindModel.Product_Sales_for_1997": {
+            "title": "Product_Sales_for_1997",
             "type": "object",
             "x-keys": [
                 "CategoryName",
@@ -1552,6 +1652,7 @@
             }
         },
         "NorthwindModel.Products_Above_Average_Price": {
+            "title": "Products_Above_Average_Price",
             "type": "object",
             "x-keys": [
                 "ProductName"
@@ -1576,6 +1677,7 @@
             }
         },
         "NorthwindModel.Products_by_Category": {
+            "title": "Products_by_Category",
             "type": "object",
             "x-keys": [
                 "CategoryName",
@@ -1613,6 +1715,7 @@
             }
         },
         "NorthwindModel.Sales_by_Category": {
+            "title": "Sales_by_Category",
             "type": "object",
             "x-keys": [
                 "CategoryID",
@@ -1647,6 +1750,7 @@
             }
         },
         "NorthwindModel.Sales_Totals_by_Amount": {
+            "title": "Sales_Totals_by_Amount",
             "type": "object",
             "x-keys": [
                 "CompanyName",
@@ -1684,6 +1788,7 @@
             }
         },
         "NorthwindModel.Summary_of_Sales_by_Quarter": {
+            "title": "Summary_of_Sales_by_Quarter",
             "type": "object",
             "x-keys": [
                 "OrderID"
@@ -1716,6 +1821,7 @@
             }
         },
         "NorthwindModel.Summary_of_Sales_by_Year": {
+            "title": "Summary_of_Sales_by_Year",
             "type": "object",
             "x-keys": [
                 "OrderID"
@@ -1914,7 +2020,6 @@
         "/Categories": {
             "get": {
                 "summary": "Get entities from Categories",
-                "description": "Get entities from entity set Categories",
                 "tags": [
                     "Categories"
                 ],
@@ -1937,7 +2042,7 @@
                     {
                         "name": "$orderby",
                         "in": "query",
-                        "description": "Order by property values, see [OData Sorting](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398305)",
+                        "description": "Order items by property values, see [OData Sorting](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398305)",
                         "type": "array",
                         "uniqueItems": true,
                         "items": {
@@ -1980,16 +2085,17 @@
                             "type": "string"
                         },
                         "enum": [
+                            "*",
                             "Products"
                         ]
                     }
                 ],
                 "responses": {
                     "200": {
-                        "description": "EntitySet Categories",
+                        "description": "Retrieved entities",
                         "schema": {
                             "type": "object",
-                            "title": "Collection of NorthwindModel.Category",
+                            "title": "Collection of Category",
                             "properties": {
                                 "value": {
                                     "type": "array",
@@ -2001,7 +2107,7 @@
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -2010,7 +2116,6 @@
             },
             "post": {
                 "summary": "Add new entity to Categories",
-                "description": "Post a new entity to entity set Categories",
                 "tags": [
                     "Categories"
                 ],
@@ -2018,7 +2123,7 @@
                     {
                         "name": "Category",
                         "in": "body",
-                        "description": "The new entity",
+                        "description": "New entity",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Category"
                         }
@@ -2032,7 +2137,7 @@
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -2043,7 +2148,6 @@
         "/Categories({CategoryID})": {
             "get": {
                 "summary": "Get entity from Categories by key",
-                "description": "Returns the entity with the key from Categories",
                 "tags": [
                     "Categories"
                 ],
@@ -2082,19 +2186,20 @@
                             "type": "string"
                         },
                         "enum": [
+                            "*",
                             "Products"
                         ]
                     }
                 ],
                 "responses": {
                     "200": {
-                        "description": "EntitySet Categories",
+                        "description": "Retrieved entity",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Category"
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -2103,7 +2208,6 @@
             },
             "patch": {
                 "summary": "Update entity in Categories",
-                "description": "Update entity in entity set Categories",
                 "tags": [
                     "Categories"
                 ],
@@ -2119,7 +2223,7 @@
                     {
                         "name": "Category",
                         "in": "body",
-                        "description": "The entity to patch",
+                        "description": "New property values",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Category"
                         }
@@ -2127,10 +2231,10 @@
                 ],
                 "responses": {
                     "204": {
-                        "description": "Empty response"
+                        "description": "Success"
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -2139,7 +2243,6 @@
             },
             "delete": {
                 "summary": "Delete entity from Categories",
-                "description": "Delete entity from entity set Categories",
                 "tags": [
                     "Categories"
                 ],
@@ -2155,16 +2258,16 @@
                     {
                         "name": "If-Match",
                         "in": "header",
-                        "description": "If-Match header",
+                        "description": "ETag",
                         "type": "string"
                     }
                 ],
                 "responses": {
                     "204": {
-                        "description": "Empty response"
+                        "description": "Success"
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -2175,7 +2278,6 @@
         "/CustomerDemographics": {
             "get": {
                 "summary": "Get entities from CustomerDemographics",
-                "description": "Get entities from entity set CustomerDemographics",
                 "tags": [
                     "CustomerDemographics"
                 ],
@@ -2198,7 +2300,7 @@
                     {
                         "name": "$orderby",
                         "in": "query",
-                        "description": "Order by property values, see [OData Sorting](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398305)",
+                        "description": "Order items by property values, see [OData Sorting](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398305)",
                         "type": "array",
                         "uniqueItems": true,
                         "items": {
@@ -2235,16 +2337,17 @@
                             "type": "string"
                         },
                         "enum": [
+                            "*",
                             "Customers"
                         ]
                     }
                 ],
                 "responses": {
                     "200": {
-                        "description": "EntitySet CustomerDemographics",
+                        "description": "Retrieved entities",
                         "schema": {
                             "type": "object",
-                            "title": "Collection of NorthwindModel.CustomerDemographic",
+                            "title": "Collection of CustomerDemographic",
                             "properties": {
                                 "value": {
                                     "type": "array",
@@ -2256,7 +2359,7 @@
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -2265,7 +2368,6 @@
             },
             "post": {
                 "summary": "Add new entity to CustomerDemographics",
-                "description": "Post a new entity to entity set CustomerDemographics",
                 "tags": [
                     "CustomerDemographics"
                 ],
@@ -2273,7 +2375,7 @@
                     {
                         "name": "CustomerDemographic",
                         "in": "body",
-                        "description": "The new entity",
+                        "description": "New entity",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.CustomerDemographic"
                         }
@@ -2287,7 +2389,7 @@
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -2298,7 +2400,6 @@
         "/CustomerDemographics('{CustomerTypeID}')": {
             "get": {
                 "summary": "Get entity from CustomerDemographics by key",
-                "description": "Returns the entity with the key from CustomerDemographics",
                 "tags": [
                     "CustomerDemographics"
                 ],
@@ -2334,19 +2435,20 @@
                             "type": "string"
                         },
                         "enum": [
+                            "*",
                             "Customers"
                         ]
                     }
                 ],
                 "responses": {
                     "200": {
-                        "description": "EntitySet CustomerDemographics",
+                        "description": "Retrieved entity",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.CustomerDemographic"
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -2355,7 +2457,6 @@
             },
             "patch": {
                 "summary": "Update entity in CustomerDemographics",
-                "description": "Update entity in entity set CustomerDemographics",
                 "tags": [
                     "CustomerDemographics"
                 ],
@@ -2370,7 +2471,7 @@
                     {
                         "name": "CustomerDemographic",
                         "in": "body",
-                        "description": "The entity to patch",
+                        "description": "New property values",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.CustomerDemographic"
                         }
@@ -2378,10 +2479,10 @@
                 ],
                 "responses": {
                     "204": {
-                        "description": "Empty response"
+                        "description": "Success"
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -2390,7 +2491,6 @@
             },
             "delete": {
                 "summary": "Delete entity from CustomerDemographics",
-                "description": "Delete entity from entity set CustomerDemographics",
                 "tags": [
                     "CustomerDemographics"
                 ],
@@ -2405,16 +2505,16 @@
                     {
                         "name": "If-Match",
                         "in": "header",
-                        "description": "If-Match header",
+                        "description": "ETag",
                         "type": "string"
                     }
                 ],
                 "responses": {
                     "204": {
-                        "description": "Empty response"
+                        "description": "Success"
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -2425,7 +2525,6 @@
         "/Customers": {
             "get": {
                 "summary": "Get entities from Customers",
-                "description": "Get entities from entity set Customers",
                 "tags": [
                     "Customers"
                 ],
@@ -2448,7 +2547,7 @@
                     {
                         "name": "$orderby",
                         "in": "query",
-                        "description": "Order by property values, see [OData Sorting](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398305)",
+                        "description": "Order items by property values, see [OData Sorting](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398305)",
                         "type": "array",
                         "uniqueItems": true,
                         "items": {
@@ -2512,6 +2611,7 @@
                             "type": "string"
                         },
                         "enum": [
+                            "*",
                             "Orders",
                             "CustomerDemographics"
                         ]
@@ -2519,10 +2619,10 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "EntitySet Customers",
+                        "description": "Retrieved entities",
                         "schema": {
                             "type": "object",
-                            "title": "Collection of NorthwindModel.Customer",
+                            "title": "Collection of Customer",
                             "properties": {
                                 "value": {
                                     "type": "array",
@@ -2534,7 +2634,7 @@
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -2543,7 +2643,6 @@
             },
             "post": {
                 "summary": "Add new entity to Customers",
-                "description": "Post a new entity to entity set Customers",
                 "tags": [
                     "Customers"
                 ],
@@ -2551,7 +2650,7 @@
                     {
                         "name": "Customer",
                         "in": "body",
-                        "description": "The new entity",
+                        "description": "New entity",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Customer"
                         }
@@ -2565,7 +2664,7 @@
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -2576,7 +2675,6 @@
         "/Customers('{CustomerID}')": {
             "get": {
                 "summary": "Get entity from Customers by key",
-                "description": "Returns the entity with the key from Customers",
                 "tags": [
                     "Customers"
                 ],
@@ -2621,6 +2719,7 @@
                             "type": "string"
                         },
                         "enum": [
+                            "*",
                             "Orders",
                             "CustomerDemographics"
                         ]
@@ -2628,13 +2727,13 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "EntitySet Customers",
+                        "description": "Retrieved entity",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Customer"
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -2643,7 +2742,6 @@
             },
             "patch": {
                 "summary": "Update entity in Customers",
-                "description": "Update entity in entity set Customers",
                 "tags": [
                     "Customers"
                 ],
@@ -2658,7 +2756,7 @@
                     {
                         "name": "Customer",
                         "in": "body",
-                        "description": "The entity to patch",
+                        "description": "New property values",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Customer"
                         }
@@ -2666,10 +2764,10 @@
                 ],
                 "responses": {
                     "204": {
-                        "description": "Empty response"
+                        "description": "Success"
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -2678,7 +2776,6 @@
             },
             "delete": {
                 "summary": "Delete entity from Customers",
-                "description": "Delete entity from entity set Customers",
                 "tags": [
                     "Customers"
                 ],
@@ -2693,16 +2790,16 @@
                     {
                         "name": "If-Match",
                         "in": "header",
-                        "description": "If-Match header",
+                        "description": "ETag",
                         "type": "string"
                     }
                 ],
                 "responses": {
                     "204": {
-                        "description": "Empty response"
+                        "description": "Success"
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -2713,7 +2810,6 @@
         "/Employees": {
             "get": {
                 "summary": "Get entities from Employees",
-                "description": "Get entities from entity set Employees",
                 "tags": [
                     "Employees"
                 ],
@@ -2736,7 +2832,7 @@
                     {
                         "name": "$orderby",
                         "in": "query",
-                        "description": "Order by property values, see [OData Sorting](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398305)",
+                        "description": "Order items by property values, see [OData Sorting](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398305)",
                         "type": "array",
                         "uniqueItems": true,
                         "items": {
@@ -2821,6 +2917,7 @@
                             "type": "string"
                         },
                         "enum": [
+                            "*",
                             "Employees1",
                             "Employee1",
                             "Orders",
@@ -2830,10 +2927,10 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "EntitySet Employees",
+                        "description": "Retrieved entities",
                         "schema": {
                             "type": "object",
-                            "title": "Collection of NorthwindModel.Employee",
+                            "title": "Collection of Employee",
                             "properties": {
                                 "value": {
                                     "type": "array",
@@ -2845,7 +2942,7 @@
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -2854,7 +2951,6 @@
             },
             "post": {
                 "summary": "Add new entity to Employees",
-                "description": "Post a new entity to entity set Employees",
                 "tags": [
                     "Employees"
                 ],
@@ -2862,7 +2958,7 @@
                     {
                         "name": "Employee",
                         "in": "body",
-                        "description": "The new entity",
+                        "description": "New entity",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Employee"
                         }
@@ -2876,7 +2972,7 @@
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -2887,7 +2983,6 @@
         "/Employees({EmployeeID})": {
             "get": {
                 "summary": "Get entity from Employees by key",
-                "description": "Returns the entity with the key from Employees",
                 "tags": [
                     "Employees"
                 ],
@@ -2940,6 +3035,7 @@
                             "type": "string"
                         },
                         "enum": [
+                            "*",
                             "Employees1",
                             "Employee1",
                             "Orders",
@@ -2949,13 +3045,13 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "EntitySet Employees",
+                        "description": "Retrieved entity",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Employee"
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -2964,7 +3060,6 @@
             },
             "patch": {
                 "summary": "Update entity in Employees",
-                "description": "Update entity in entity set Employees",
                 "tags": [
                     "Employees"
                 ],
@@ -2980,7 +3075,7 @@
                     {
                         "name": "Employee",
                         "in": "body",
-                        "description": "The entity to patch",
+                        "description": "New property values",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Employee"
                         }
@@ -2988,10 +3083,10 @@
                 ],
                 "responses": {
                     "204": {
-                        "description": "Empty response"
+                        "description": "Success"
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -3000,7 +3095,6 @@
             },
             "delete": {
                 "summary": "Delete entity from Employees",
-                "description": "Delete entity from entity set Employees",
                 "tags": [
                     "Employees"
                 ],
@@ -3016,16 +3110,16 @@
                     {
                         "name": "If-Match",
                         "in": "header",
-                        "description": "If-Match header",
+                        "description": "ETag",
                         "type": "string"
                     }
                 ],
                 "responses": {
                     "204": {
-                        "description": "Empty response"
+                        "description": "Success"
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -3036,7 +3130,6 @@
         "/Order_Details": {
             "get": {
                 "summary": "Get entities from Order_Details",
-                "description": "Get entities from entity set Order_Details",
                 "tags": [
                     "Order_Details"
                 ],
@@ -3059,7 +3152,7 @@
                     {
                         "name": "$orderby",
                         "in": "query",
-                        "description": "Order by property values, see [OData Sorting](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398305)",
+                        "description": "Order items by property values, see [OData Sorting](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398305)",
                         "type": "array",
                         "uniqueItems": true,
                         "items": {
@@ -3105,6 +3198,7 @@
                             "type": "string"
                         },
                         "enum": [
+                            "*",
                             "Order",
                             "Product"
                         ]
@@ -3112,10 +3206,10 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "EntitySet Order_Details",
+                        "description": "Retrieved entities",
                         "schema": {
                             "type": "object",
-                            "title": "Collection of NorthwindModel.Order_Detail",
+                            "title": "Collection of Order_Detail",
                             "properties": {
                                 "value": {
                                     "type": "array",
@@ -3127,7 +3221,7 @@
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -3136,7 +3230,6 @@
             },
             "post": {
                 "summary": "Add new entity to Order_Details",
-                "description": "Post a new entity to entity set Order_Details",
                 "tags": [
                     "Order_Details"
                 ],
@@ -3144,7 +3237,7 @@
                     {
                         "name": "Order_Detail",
                         "in": "body",
-                        "description": "The new entity",
+                        "description": "New entity",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Order_Detail"
                         }
@@ -3158,7 +3251,7 @@
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -3169,7 +3262,6 @@
         "/Order_Details(OrderID={OrderID},ProductID={ProductID})": {
             "get": {
                 "summary": "Get entity from Order_Details by key",
-                "description": "Returns the entity with the key from Order_Details",
                 "tags": [
                     "Order_Details"
                 ],
@@ -3217,6 +3309,7 @@
                             "type": "string"
                         },
                         "enum": [
+                            "*",
                             "Order",
                             "Product"
                         ]
@@ -3224,13 +3317,13 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "EntitySet Order_Details",
+                        "description": "Retrieved entity",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Order_Detail"
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -3239,7 +3332,6 @@
             },
             "patch": {
                 "summary": "Update entity in Order_Details",
-                "description": "Update entity in entity set Order_Details",
                 "tags": [
                     "Order_Details"
                 ],
@@ -3263,7 +3355,7 @@
                     {
                         "name": "Order_Detail",
                         "in": "body",
-                        "description": "The entity to patch",
+                        "description": "New property values",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Order_Detail"
                         }
@@ -3271,10 +3363,10 @@
                 ],
                 "responses": {
                     "204": {
-                        "description": "Empty response"
+                        "description": "Success"
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -3283,7 +3375,6 @@
             },
             "delete": {
                 "summary": "Delete entity from Order_Details",
-                "description": "Delete entity from entity set Order_Details",
                 "tags": [
                     "Order_Details"
                 ],
@@ -3307,16 +3398,16 @@
                     {
                         "name": "If-Match",
                         "in": "header",
-                        "description": "If-Match header",
+                        "description": "ETag",
                         "type": "string"
                     }
                 ],
                 "responses": {
                     "204": {
-                        "description": "Empty response"
+                        "description": "Success"
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -3327,7 +3418,6 @@
         "/Orders": {
             "get": {
                 "summary": "Get entities from Orders",
-                "description": "Get entities from entity set Orders",
                 "tags": [
                     "Orders"
                 ],
@@ -3350,7 +3440,7 @@
                     {
                         "name": "$orderby",
                         "in": "query",
-                        "description": "Order by property values, see [OData Sorting](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398305)",
+                        "description": "Order items by property values, see [OData Sorting](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398305)",
                         "type": "array",
                         "uniqueItems": true,
                         "items": {
@@ -3423,6 +3513,7 @@
                             "type": "string"
                         },
                         "enum": [
+                            "*",
                             "Customer",
                             "Employee",
                             "Order_Details",
@@ -3432,10 +3523,10 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "EntitySet Orders",
+                        "description": "Retrieved entities",
                         "schema": {
                             "type": "object",
-                            "title": "Collection of NorthwindModel.Order",
+                            "title": "Collection of Order",
                             "properties": {
                                 "value": {
                                     "type": "array",
@@ -3447,7 +3538,7 @@
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -3456,7 +3547,6 @@
             },
             "post": {
                 "summary": "Add new entity to Orders",
-                "description": "Post a new entity to entity set Orders",
                 "tags": [
                     "Orders"
                 ],
@@ -3464,7 +3554,7 @@
                     {
                         "name": "Order",
                         "in": "body",
-                        "description": "The new entity",
+                        "description": "New entity",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Order"
                         }
@@ -3478,7 +3568,7 @@
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -3489,7 +3579,6 @@
         "/Orders({OrderID})": {
             "get": {
                 "summary": "Get entity from Orders by key",
-                "description": "Returns the entity with the key from Orders",
                 "tags": [
                     "Orders"
                 ],
@@ -3538,6 +3627,7 @@
                             "type": "string"
                         },
                         "enum": [
+                            "*",
                             "Customer",
                             "Employee",
                             "Order_Details",
@@ -3547,13 +3637,13 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "EntitySet Orders",
+                        "description": "Retrieved entity",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Order"
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -3562,7 +3652,6 @@
             },
             "patch": {
                 "summary": "Update entity in Orders",
-                "description": "Update entity in entity set Orders",
                 "tags": [
                     "Orders"
                 ],
@@ -3578,7 +3667,7 @@
                     {
                         "name": "Order",
                         "in": "body",
-                        "description": "The entity to patch",
+                        "description": "New property values",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Order"
                         }
@@ -3586,10 +3675,10 @@
                 ],
                 "responses": {
                     "204": {
-                        "description": "Empty response"
+                        "description": "Success"
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -3598,7 +3687,6 @@
             },
             "delete": {
                 "summary": "Delete entity from Orders",
-                "description": "Delete entity from entity set Orders",
                 "tags": [
                     "Orders"
                 ],
@@ -3614,16 +3702,16 @@
                     {
                         "name": "If-Match",
                         "in": "header",
-                        "description": "If-Match header",
+                        "description": "ETag",
                         "type": "string"
                     }
                 ],
                 "responses": {
                     "204": {
-                        "description": "Empty response"
+                        "description": "Success"
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -3634,7 +3722,6 @@
         "/Products": {
             "get": {
                 "summary": "Get entities from Products",
-                "description": "Get entities from entity set Products",
                 "tags": [
                     "Products"
                 ],
@@ -3657,7 +3744,7 @@
                     {
                         "name": "$orderby",
                         "in": "query",
-                        "description": "Order by property values, see [OData Sorting](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398305)",
+                        "description": "Order items by property values, see [OData Sorting](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398305)",
                         "type": "array",
                         "uniqueItems": true,
                         "items": {
@@ -3718,6 +3805,7 @@
                             "type": "string"
                         },
                         "enum": [
+                            "*",
                             "Category",
                             "Order_Details",
                             "Supplier"
@@ -3726,10 +3814,10 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "EntitySet Products",
+                        "description": "Retrieved entities",
                         "schema": {
                             "type": "object",
-                            "title": "Collection of NorthwindModel.Product",
+                            "title": "Collection of Product",
                             "properties": {
                                 "value": {
                                     "type": "array",
@@ -3741,7 +3829,7 @@
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -3750,7 +3838,6 @@
             },
             "post": {
                 "summary": "Add new entity to Products",
-                "description": "Post a new entity to entity set Products",
                 "tags": [
                     "Products"
                 ],
@@ -3758,7 +3845,7 @@
                     {
                         "name": "Product",
                         "in": "body",
-                        "description": "The new entity",
+                        "description": "New entity",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Product"
                         }
@@ -3772,7 +3859,7 @@
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -3783,7 +3870,6 @@
         "/Products({ProductID})": {
             "get": {
                 "summary": "Get entity from Products by key",
-                "description": "Returns the entity with the key from Products",
                 "tags": [
                     "Products"
                 ],
@@ -3828,6 +3914,7 @@
                             "type": "string"
                         },
                         "enum": [
+                            "*",
                             "Category",
                             "Order_Details",
                             "Supplier"
@@ -3836,13 +3923,13 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "EntitySet Products",
+                        "description": "Retrieved entity",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Product"
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -3851,7 +3938,6 @@
             },
             "patch": {
                 "summary": "Update entity in Products",
-                "description": "Update entity in entity set Products",
                 "tags": [
                     "Products"
                 ],
@@ -3867,7 +3953,7 @@
                     {
                         "name": "Product",
                         "in": "body",
-                        "description": "The entity to patch",
+                        "description": "New property values",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Product"
                         }
@@ -3875,10 +3961,10 @@
                 ],
                 "responses": {
                     "204": {
-                        "description": "Empty response"
+                        "description": "Success"
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -3887,7 +3973,6 @@
             },
             "delete": {
                 "summary": "Delete entity from Products",
-                "description": "Delete entity from entity set Products",
                 "tags": [
                     "Products"
                 ],
@@ -3903,16 +3988,16 @@
                     {
                         "name": "If-Match",
                         "in": "header",
-                        "description": "If-Match header",
+                        "description": "ETag",
                         "type": "string"
                     }
                 ],
                 "responses": {
                     "204": {
-                        "description": "Empty response"
+                        "description": "Success"
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -3923,7 +4008,6 @@
         "/Regions": {
             "get": {
                 "summary": "Get entities from Regions",
-                "description": "Get entities from entity set Regions",
                 "tags": [
                     "Regions"
                 ],
@@ -3946,7 +4030,7 @@
                     {
                         "name": "$orderby",
                         "in": "query",
-                        "description": "Order by property values, see [OData Sorting](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398305)",
+                        "description": "Order items by property values, see [OData Sorting](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398305)",
                         "type": "array",
                         "uniqueItems": true,
                         "items": {
@@ -3983,16 +4067,17 @@
                             "type": "string"
                         },
                         "enum": [
+                            "*",
                             "Territories"
                         ]
                     }
                 ],
                 "responses": {
                     "200": {
-                        "description": "EntitySet Regions",
+                        "description": "Retrieved entities",
                         "schema": {
                             "type": "object",
-                            "title": "Collection of NorthwindModel.Region",
+                            "title": "Collection of Region",
                             "properties": {
                                 "value": {
                                     "type": "array",
@@ -4004,7 +4089,7 @@
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -4013,7 +4098,6 @@
             },
             "post": {
                 "summary": "Add new entity to Regions",
-                "description": "Post a new entity to entity set Regions",
                 "tags": [
                     "Regions"
                 ],
@@ -4021,7 +4105,7 @@
                     {
                         "name": "Region",
                         "in": "body",
-                        "description": "The new entity",
+                        "description": "New entity",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Region"
                         }
@@ -4035,7 +4119,7 @@
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -4046,7 +4130,6 @@
         "/Regions({RegionID})": {
             "get": {
                 "summary": "Get entity from Regions by key",
-                "description": "Returns the entity with the key from Regions",
                 "tags": [
                     "Regions"
                 ],
@@ -4083,19 +4166,20 @@
                             "type": "string"
                         },
                         "enum": [
+                            "*",
                             "Territories"
                         ]
                     }
                 ],
                 "responses": {
                     "200": {
-                        "description": "EntitySet Regions",
+                        "description": "Retrieved entity",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Region"
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -4104,7 +4188,6 @@
             },
             "patch": {
                 "summary": "Update entity in Regions",
-                "description": "Update entity in entity set Regions",
                 "tags": [
                     "Regions"
                 ],
@@ -4120,7 +4203,7 @@
                     {
                         "name": "Region",
                         "in": "body",
-                        "description": "The entity to patch",
+                        "description": "New property values",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Region"
                         }
@@ -4128,10 +4211,10 @@
                 ],
                 "responses": {
                     "204": {
-                        "description": "Empty response"
+                        "description": "Success"
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -4140,7 +4223,6 @@
             },
             "delete": {
                 "summary": "Delete entity from Regions",
-                "description": "Delete entity from entity set Regions",
                 "tags": [
                     "Regions"
                 ],
@@ -4156,16 +4238,16 @@
                     {
                         "name": "If-Match",
                         "in": "header",
-                        "description": "If-Match header",
+                        "description": "ETag",
                         "type": "string"
                     }
                 ],
                 "responses": {
                     "204": {
-                        "description": "Empty response"
+                        "description": "Success"
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -4176,7 +4258,6 @@
         "/Shippers": {
             "get": {
                 "summary": "Get entities from Shippers",
-                "description": "Get entities from entity set Shippers",
                 "tags": [
                     "Shippers"
                 ],
@@ -4199,7 +4280,7 @@
                     {
                         "name": "$orderby",
                         "in": "query",
-                        "description": "Order by property values, see [OData Sorting](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398305)",
+                        "description": "Order items by property values, see [OData Sorting](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398305)",
                         "type": "array",
                         "uniqueItems": true,
                         "items": {
@@ -4239,16 +4320,17 @@
                             "type": "string"
                         },
                         "enum": [
+                            "*",
                             "Orders"
                         ]
                     }
                 ],
                 "responses": {
                     "200": {
-                        "description": "EntitySet Shippers",
+                        "description": "Retrieved entities",
                         "schema": {
                             "type": "object",
-                            "title": "Collection of NorthwindModel.Shipper",
+                            "title": "Collection of Shipper",
                             "properties": {
                                 "value": {
                                     "type": "array",
@@ -4260,7 +4342,7 @@
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -4269,7 +4351,6 @@
             },
             "post": {
                 "summary": "Add new entity to Shippers",
-                "description": "Post a new entity to entity set Shippers",
                 "tags": [
                     "Shippers"
                 ],
@@ -4277,7 +4358,7 @@
                     {
                         "name": "Shipper",
                         "in": "body",
-                        "description": "The new entity",
+                        "description": "New entity",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Shipper"
                         }
@@ -4291,7 +4372,7 @@
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -4302,7 +4383,6 @@
         "/Shippers({ShipperID})": {
             "get": {
                 "summary": "Get entity from Shippers by key",
-                "description": "Returns the entity with the key from Shippers",
                 "tags": [
                     "Shippers"
                 ],
@@ -4340,19 +4420,20 @@
                             "type": "string"
                         },
                         "enum": [
+                            "*",
                             "Orders"
                         ]
                     }
                 ],
                 "responses": {
                     "200": {
-                        "description": "EntitySet Shippers",
+                        "description": "Retrieved entity",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Shipper"
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -4361,7 +4442,6 @@
             },
             "patch": {
                 "summary": "Update entity in Shippers",
-                "description": "Update entity in entity set Shippers",
                 "tags": [
                     "Shippers"
                 ],
@@ -4377,7 +4457,7 @@
                     {
                         "name": "Shipper",
                         "in": "body",
-                        "description": "The entity to patch",
+                        "description": "New property values",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Shipper"
                         }
@@ -4385,10 +4465,10 @@
                 ],
                 "responses": {
                     "204": {
-                        "description": "Empty response"
+                        "description": "Success"
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -4397,7 +4477,6 @@
             },
             "delete": {
                 "summary": "Delete entity from Shippers",
-                "description": "Delete entity from entity set Shippers",
                 "tags": [
                     "Shippers"
                 ],
@@ -4413,16 +4492,16 @@
                     {
                         "name": "If-Match",
                         "in": "header",
-                        "description": "If-Match header",
+                        "description": "ETag",
                         "type": "string"
                     }
                 ],
                 "responses": {
                     "204": {
-                        "description": "Empty response"
+                        "description": "Success"
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -4433,7 +4512,6 @@
         "/Suppliers": {
             "get": {
                 "summary": "Get entities from Suppliers",
-                "description": "Get entities from entity set Suppliers",
                 "tags": [
                     "Suppliers"
                 ],
@@ -4456,7 +4534,7 @@
                     {
                         "name": "$orderby",
                         "in": "query",
-                        "description": "Order by property values, see [OData Sorting](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398305)",
+                        "description": "Order items by property values, see [OData Sorting](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398305)",
                         "type": "array",
                         "uniqueItems": true,
                         "items": {
@@ -4523,16 +4601,17 @@
                             "type": "string"
                         },
                         "enum": [
+                            "*",
                             "Products"
                         ]
                     }
                 ],
                 "responses": {
                     "200": {
-                        "description": "EntitySet Suppliers",
+                        "description": "Retrieved entities",
                         "schema": {
                             "type": "object",
-                            "title": "Collection of NorthwindModel.Supplier",
+                            "title": "Collection of Supplier",
                             "properties": {
                                 "value": {
                                     "type": "array",
@@ -4544,7 +4623,7 @@
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -4553,7 +4632,6 @@
             },
             "post": {
                 "summary": "Add new entity to Suppliers",
-                "description": "Post a new entity to entity set Suppliers",
                 "tags": [
                     "Suppliers"
                 ],
@@ -4561,7 +4639,7 @@
                     {
                         "name": "Supplier",
                         "in": "body",
-                        "description": "The new entity",
+                        "description": "New entity",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Supplier"
                         }
@@ -4575,7 +4653,7 @@
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -4586,7 +4664,6 @@
         "/Suppliers({SupplierID})": {
             "get": {
                 "summary": "Get entity from Suppliers by key",
-                "description": "Returns the entity with the key from Suppliers",
                 "tags": [
                     "Suppliers"
                 ],
@@ -4633,19 +4710,20 @@
                             "type": "string"
                         },
                         "enum": [
+                            "*",
                             "Products"
                         ]
                     }
                 ],
                 "responses": {
                     "200": {
-                        "description": "EntitySet Suppliers",
+                        "description": "Retrieved entity",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Supplier"
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -4654,7 +4732,6 @@
             },
             "patch": {
                 "summary": "Update entity in Suppliers",
-                "description": "Update entity in entity set Suppliers",
                 "tags": [
                     "Suppliers"
                 ],
@@ -4670,7 +4747,7 @@
                     {
                         "name": "Supplier",
                         "in": "body",
-                        "description": "The entity to patch",
+                        "description": "New property values",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Supplier"
                         }
@@ -4678,10 +4755,10 @@
                 ],
                 "responses": {
                     "204": {
-                        "description": "Empty response"
+                        "description": "Success"
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -4690,7 +4767,6 @@
             },
             "delete": {
                 "summary": "Delete entity from Suppliers",
-                "description": "Delete entity from entity set Suppliers",
                 "tags": [
                     "Suppliers"
                 ],
@@ -4706,16 +4782,16 @@
                     {
                         "name": "If-Match",
                         "in": "header",
-                        "description": "If-Match header",
+                        "description": "ETag",
                         "type": "string"
                     }
                 ],
                 "responses": {
                     "204": {
-                        "description": "Empty response"
+                        "description": "Success"
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -4726,7 +4802,6 @@
         "/Territories": {
             "get": {
                 "summary": "Get entities from Territories",
-                "description": "Get entities from entity set Territories",
                 "tags": [
                     "Territories"
                 ],
@@ -4749,7 +4824,7 @@
                     {
                         "name": "$orderby",
                         "in": "query",
-                        "description": "Order by property values, see [OData Sorting](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398305)",
+                        "description": "Order items by property values, see [OData Sorting](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398305)",
                         "type": "array",
                         "uniqueItems": true,
                         "items": {
@@ -4789,6 +4864,7 @@
                             "type": "string"
                         },
                         "enum": [
+                            "*",
                             "Region",
                             "Employees"
                         ]
@@ -4796,10 +4872,10 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "EntitySet Territories",
+                        "description": "Retrieved entities",
                         "schema": {
                             "type": "object",
-                            "title": "Collection of NorthwindModel.Territory",
+                            "title": "Collection of Territory",
                             "properties": {
                                 "value": {
                                     "type": "array",
@@ -4811,7 +4887,7 @@
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -4820,7 +4896,6 @@
             },
             "post": {
                 "summary": "Add new entity to Territories",
-                "description": "Post a new entity to entity set Territories",
                 "tags": [
                     "Territories"
                 ],
@@ -4828,7 +4903,7 @@
                     {
                         "name": "Territory",
                         "in": "body",
-                        "description": "The new entity",
+                        "description": "New entity",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Territory"
                         }
@@ -4842,7 +4917,7 @@
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -4853,7 +4928,6 @@
         "/Territories('{TerritoryID}')": {
             "get": {
                 "summary": "Get entity from Territories by key",
-                "description": "Returns the entity with the key from Territories",
                 "tags": [
                     "Territories"
                 ],
@@ -4890,6 +4964,7 @@
                             "type": "string"
                         },
                         "enum": [
+                            "*",
                             "Region",
                             "Employees"
                         ]
@@ -4897,13 +4972,13 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "EntitySet Territories",
+                        "description": "Retrieved entity",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Territory"
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -4912,7 +4987,6 @@
             },
             "patch": {
                 "summary": "Update entity in Territories",
-                "description": "Update entity in entity set Territories",
                 "tags": [
                     "Territories"
                 ],
@@ -4927,7 +5001,7 @@
                     {
                         "name": "Territory",
                         "in": "body",
-                        "description": "The entity to patch",
+                        "description": "New property values",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Territory"
                         }
@@ -4935,10 +5009,10 @@
                 ],
                 "responses": {
                     "204": {
-                        "description": "Empty response"
+                        "description": "Success"
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -4947,7 +5021,6 @@
             },
             "delete": {
                 "summary": "Delete entity from Territories",
-                "description": "Delete entity from entity set Territories",
                 "tags": [
                     "Territories"
                 ],
@@ -4962,16 +5035,16 @@
                     {
                         "name": "If-Match",
                         "in": "header",
-                        "description": "If-Match header",
+                        "description": "ETag",
                         "type": "string"
                     }
                 ],
                 "responses": {
                     "204": {
-                        "description": "Empty response"
+                        "description": "Success"
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -4982,7 +5055,6 @@
         "/Alphabetical_list_of_products": {
             "get": {
                 "summary": "Get entities from Alphabetical_list_of_products",
-                "description": "Get entities from entity set Alphabetical_list_of_products",
                 "tags": [
                     "Alphabetical_list_of_products"
                 ],
@@ -5005,7 +5077,7 @@
                     {
                         "name": "$orderby",
                         "in": "query",
-                        "description": "Order by property values, see [OData Sorting](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398305)",
+                        "description": "Order items by property values, see [OData Sorting](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398305)",
                         "type": "array",
                         "uniqueItems": true,
                         "items": {
@@ -5062,10 +5134,10 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "EntitySet Alphabetical_list_of_products",
+                        "description": "Retrieved entities",
                         "schema": {
                             "type": "object",
-                            "title": "Collection of NorthwindModel.Alphabetical_list_of_product",
+                            "title": "Collection of Alphabetical_list_of_product",
                             "properties": {
                                 "value": {
                                     "type": "array",
@@ -5077,7 +5149,7 @@
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -5086,7 +5158,6 @@
             },
             "post": {
                 "summary": "Add new entity to Alphabetical_list_of_products",
-                "description": "Post a new entity to entity set Alphabetical_list_of_products",
                 "tags": [
                     "Alphabetical_list_of_products"
                 ],
@@ -5094,7 +5165,7 @@
                     {
                         "name": "Alphabetical_list_of_product",
                         "in": "body",
-                        "description": "The new entity",
+                        "description": "New entity",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Alphabetical_list_of_product"
                         }
@@ -5108,7 +5179,7 @@
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -5119,7 +5190,6 @@
         "/Alphabetical_list_of_products(CategoryName='{CategoryName}',Discontinued='{Discontinued}',ProductID={ProductID},ProductName='{ProductName}')": {
             "get": {
                 "summary": "Get entity from Alphabetical_list_of_products by key",
-                "description": "Returns the entity with the key from Alphabetical_list_of_products",
                 "tags": [
                     "Alphabetical_list_of_products"
                 ],
@@ -5179,13 +5249,13 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "EntitySet Alphabetical_list_of_products",
+                        "description": "Retrieved entity",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Alphabetical_list_of_product"
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -5194,7 +5264,6 @@
             },
             "patch": {
                 "summary": "Update entity in Alphabetical_list_of_products",
-                "description": "Update entity in entity set Alphabetical_list_of_products",
                 "tags": [
                     "Alphabetical_list_of_products"
                 ],
@@ -5231,7 +5300,7 @@
                     {
                         "name": "Alphabetical_list_of_product",
                         "in": "body",
-                        "description": "The entity to patch",
+                        "description": "New property values",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Alphabetical_list_of_product"
                         }
@@ -5239,10 +5308,10 @@
                 ],
                 "responses": {
                     "204": {
-                        "description": "Empty response"
+                        "description": "Success"
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -5251,7 +5320,6 @@
             },
             "delete": {
                 "summary": "Delete entity from Alphabetical_list_of_products",
-                "description": "Delete entity from entity set Alphabetical_list_of_products",
                 "tags": [
                     "Alphabetical_list_of_products"
                 ],
@@ -5288,16 +5356,16 @@
                     {
                         "name": "If-Match",
                         "in": "header",
-                        "description": "If-Match header",
+                        "description": "ETag",
                         "type": "string"
                     }
                 ],
                 "responses": {
                     "204": {
-                        "description": "Empty response"
+                        "description": "Success"
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -5308,7 +5376,6 @@
         "/Category_Sales_for_1997": {
             "get": {
                 "summary": "Get entities from Category_Sales_for_1997",
-                "description": "Get entities from entity set Category_Sales_for_1997",
                 "tags": [
                     "Category_Sales_for_1997"
                 ],
@@ -5331,7 +5398,7 @@
                     {
                         "name": "$orderby",
                         "in": "query",
-                        "description": "Order by property values, see [OData Sorting](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398305)",
+                        "description": "Order items by property values, see [OData Sorting](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398305)",
                         "type": "array",
                         "uniqueItems": true,
                         "items": {
@@ -5361,10 +5428,10 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "EntitySet Category_Sales_for_1997",
+                        "description": "Retrieved entities",
                         "schema": {
                             "type": "object",
-                            "title": "Collection of NorthwindModel.Category_Sales_for_1997",
+                            "title": "Collection of Category_Sales_for_1997",
                             "properties": {
                                 "value": {
                                     "type": "array",
@@ -5376,7 +5443,7 @@
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -5385,7 +5452,6 @@
             },
             "post": {
                 "summary": "Add new entity to Category_Sales_for_1997",
-                "description": "Post a new entity to entity set Category_Sales_for_1997",
                 "tags": [
                     "Category_Sales_for_1997"
                 ],
@@ -5393,7 +5459,7 @@
                     {
                         "name": "Category_Sales_for_1997",
                         "in": "body",
-                        "description": "The new entity",
+                        "description": "New entity",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Category_Sales_for_1997"
                         }
@@ -5407,7 +5473,7 @@
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -5418,7 +5484,6 @@
         "/Category_Sales_for_1997('{CategoryName}')": {
             "get": {
                 "summary": "Get entity from Category_Sales_for_1997 by key",
-                "description": "Returns the entity with the key from Category_Sales_for_1997",
                 "tags": [
                     "Category_Sales_for_1997"
                 ],
@@ -5447,13 +5512,13 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "EntitySet Category_Sales_for_1997",
+                        "description": "Retrieved entity",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Category_Sales_for_1997"
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -5462,7 +5527,6 @@
             },
             "patch": {
                 "summary": "Update entity in Category_Sales_for_1997",
-                "description": "Update entity in entity set Category_Sales_for_1997",
                 "tags": [
                     "Category_Sales_for_1997"
                 ],
@@ -5477,7 +5541,7 @@
                     {
                         "name": "Category_Sales_for_1997",
                         "in": "body",
-                        "description": "The entity to patch",
+                        "description": "New property values",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Category_Sales_for_1997"
                         }
@@ -5485,10 +5549,10 @@
                 ],
                 "responses": {
                     "204": {
-                        "description": "Empty response"
+                        "description": "Success"
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -5497,7 +5561,6 @@
             },
             "delete": {
                 "summary": "Delete entity from Category_Sales_for_1997",
-                "description": "Delete entity from entity set Category_Sales_for_1997",
                 "tags": [
                     "Category_Sales_for_1997"
                 ],
@@ -5512,16 +5575,16 @@
                     {
                         "name": "If-Match",
                         "in": "header",
-                        "description": "If-Match header",
+                        "description": "ETag",
                         "type": "string"
                     }
                 ],
                 "responses": {
                     "204": {
-                        "description": "Empty response"
+                        "description": "Success"
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -5532,7 +5595,6 @@
         "/Current_Product_Lists": {
             "get": {
                 "summary": "Get entities from Current_Product_Lists",
-                "description": "Get entities from entity set Current_Product_Lists",
                 "tags": [
                     "Current_Product_Lists"
                 ],
@@ -5555,7 +5617,7 @@
                     {
                         "name": "$orderby",
                         "in": "query",
-                        "description": "Order by property values, see [OData Sorting](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398305)",
+                        "description": "Order items by property values, see [OData Sorting](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398305)",
                         "type": "array",
                         "uniqueItems": true,
                         "items": {
@@ -5585,10 +5647,10 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "EntitySet Current_Product_Lists",
+                        "description": "Retrieved entities",
                         "schema": {
                             "type": "object",
-                            "title": "Collection of NorthwindModel.Current_Product_List",
+                            "title": "Collection of Current_Product_List",
                             "properties": {
                                 "value": {
                                     "type": "array",
@@ -5600,7 +5662,7 @@
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -5609,7 +5671,6 @@
             },
             "post": {
                 "summary": "Add new entity to Current_Product_Lists",
-                "description": "Post a new entity to entity set Current_Product_Lists",
                 "tags": [
                     "Current_Product_Lists"
                 ],
@@ -5617,7 +5678,7 @@
                     {
                         "name": "Current_Product_List",
                         "in": "body",
-                        "description": "The new entity",
+                        "description": "New entity",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Current_Product_List"
                         }
@@ -5631,7 +5692,7 @@
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -5642,7 +5703,6 @@
         "/Current_Product_Lists(ProductID={ProductID},ProductName='{ProductName}')": {
             "get": {
                 "summary": "Get entity from Current_Product_Lists by key",
-                "description": "Returns the entity with the key from Current_Product_Lists",
                 "tags": [
                     "Current_Product_Lists"
                 ],
@@ -5679,13 +5739,13 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "EntitySet Current_Product_Lists",
+                        "description": "Retrieved entity",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Current_Product_List"
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -5694,7 +5754,6 @@
             },
             "patch": {
                 "summary": "Update entity in Current_Product_Lists",
-                "description": "Update entity in entity set Current_Product_Lists",
                 "tags": [
                     "Current_Product_Lists"
                 ],
@@ -5717,7 +5776,7 @@
                     {
                         "name": "Current_Product_List",
                         "in": "body",
-                        "description": "The entity to patch",
+                        "description": "New property values",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Current_Product_List"
                         }
@@ -5725,10 +5784,10 @@
                 ],
                 "responses": {
                     "204": {
-                        "description": "Empty response"
+                        "description": "Success"
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -5737,7 +5796,6 @@
             },
             "delete": {
                 "summary": "Delete entity from Current_Product_Lists",
-                "description": "Delete entity from entity set Current_Product_Lists",
                 "tags": [
                     "Current_Product_Lists"
                 ],
@@ -5760,16 +5818,16 @@
                     {
                         "name": "If-Match",
                         "in": "header",
-                        "description": "If-Match header",
+                        "description": "ETag",
                         "type": "string"
                     }
                 ],
                 "responses": {
                     "204": {
-                        "description": "Empty response"
+                        "description": "Success"
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -5780,7 +5838,6 @@
         "/Customer_and_Suppliers_by_Cities": {
             "get": {
                 "summary": "Get entities from Customer_and_Suppliers_by_Cities",
-                "description": "Get entities from entity set Customer_and_Suppliers_by_Cities",
                 "tags": [
                     "Customer_and_Suppliers_by_Cities"
                 ],
@@ -5803,7 +5860,7 @@
                     {
                         "name": "$orderby",
                         "in": "query",
-                        "description": "Order by property values, see [OData Sorting](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398305)",
+                        "description": "Order items by property values, see [OData Sorting](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398305)",
                         "type": "array",
                         "uniqueItems": true,
                         "items": {
@@ -5839,10 +5896,10 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "EntitySet Customer_and_Suppliers_by_Cities",
+                        "description": "Retrieved entities",
                         "schema": {
                             "type": "object",
-                            "title": "Collection of NorthwindModel.Customer_and_Suppliers_by_City",
+                            "title": "Collection of Customer_and_Suppliers_by_City",
                             "properties": {
                                 "value": {
                                     "type": "array",
@@ -5854,7 +5911,7 @@
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -5863,7 +5920,6 @@
             },
             "post": {
                 "summary": "Add new entity to Customer_and_Suppliers_by_Cities",
-                "description": "Post a new entity to entity set Customer_and_Suppliers_by_Cities",
                 "tags": [
                     "Customer_and_Suppliers_by_Cities"
                 ],
@@ -5871,7 +5927,7 @@
                     {
                         "name": "Customer_and_Suppliers_by_City",
                         "in": "body",
-                        "description": "The new entity",
+                        "description": "New entity",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Customer_and_Suppliers_by_City"
                         }
@@ -5885,7 +5941,7 @@
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -5896,7 +5952,6 @@
         "/Customer_and_Suppliers_by_Cities(CompanyName='{CompanyName}',Relationship='{Relationship}')": {
             "get": {
                 "summary": "Get entity from Customer_and_Suppliers_by_Cities by key",
-                "description": "Returns the entity with the key from Customer_and_Suppliers_by_Cities",
                 "tags": [
                     "Customer_and_Suppliers_by_Cities"
                 ],
@@ -5934,13 +5989,13 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "EntitySet Customer_and_Suppliers_by_Cities",
+                        "description": "Retrieved entity",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Customer_and_Suppliers_by_City"
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -5949,7 +6004,6 @@
             },
             "patch": {
                 "summary": "Update entity in Customer_and_Suppliers_by_Cities",
-                "description": "Update entity in entity set Customer_and_Suppliers_by_Cities",
                 "tags": [
                     "Customer_and_Suppliers_by_Cities"
                 ],
@@ -5971,7 +6025,7 @@
                     {
                         "name": "Customer_and_Suppliers_by_City",
                         "in": "body",
-                        "description": "The entity to patch",
+                        "description": "New property values",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Customer_and_Suppliers_by_City"
                         }
@@ -5979,10 +6033,10 @@
                 ],
                 "responses": {
                     "204": {
-                        "description": "Empty response"
+                        "description": "Success"
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -5991,7 +6045,6 @@
             },
             "delete": {
                 "summary": "Delete entity from Customer_and_Suppliers_by_Cities",
-                "description": "Delete entity from entity set Customer_and_Suppliers_by_Cities",
                 "tags": [
                     "Customer_and_Suppliers_by_Cities"
                 ],
@@ -6013,16 +6066,16 @@
                     {
                         "name": "If-Match",
                         "in": "header",
-                        "description": "If-Match header",
+                        "description": "ETag",
                         "type": "string"
                     }
                 ],
                 "responses": {
                     "204": {
-                        "description": "Empty response"
+                        "description": "Success"
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -6033,7 +6086,6 @@
         "/Invoices": {
             "get": {
                 "summary": "Get entities from Invoices",
-                "description": "Get entities from entity set Invoices",
                 "tags": [
                     "Invoices"
                 ],
@@ -6056,7 +6108,7 @@
                     {
                         "name": "$orderby",
                         "in": "query",
-                        "description": "Order by property values, see [OData Sorting](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398305)",
+                        "description": "Order items by property values, see [OData Sorting](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398305)",
                         "type": "array",
                         "uniqueItems": true,
                         "items": {
@@ -6158,10 +6210,10 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "EntitySet Invoices",
+                        "description": "Retrieved entities",
                         "schema": {
                             "type": "object",
-                            "title": "Collection of NorthwindModel.Invoice",
+                            "title": "Collection of Invoice",
                             "properties": {
                                 "value": {
                                     "type": "array",
@@ -6173,7 +6225,7 @@
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -6182,7 +6234,6 @@
             },
             "post": {
                 "summary": "Add new entity to Invoices",
-                "description": "Post a new entity to entity set Invoices",
                 "tags": [
                     "Invoices"
                 ],
@@ -6190,7 +6241,7 @@
                     {
                         "name": "Invoice",
                         "in": "body",
-                        "description": "The new entity",
+                        "description": "New entity",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Invoice"
                         }
@@ -6204,7 +6255,7 @@
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -6215,7 +6266,6 @@
         "/Invoices(CustomerName='{CustomerName}',Discount={Discount},OrderID={OrderID},ProductID={ProductID},ProductName='{ProductName}',Quantity={Quantity},Salesperson='{Salesperson}',ShipperName='{ShipperName}',UnitPrice='{UnitPrice}')": {
             "get": {
                 "summary": "Get entity from Invoices by key",
-                "description": "Returns the entity with the key from Invoices",
                 "tags": [
                     "Invoices"
                 ],
@@ -6326,13 +6376,13 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "EntitySet Invoices",
+                        "description": "Retrieved entity",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Invoice"
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -6341,7 +6391,6 @@
             },
             "patch": {
                 "summary": "Update entity in Invoices",
-                "description": "Update entity in entity set Invoices",
                 "tags": [
                     "Invoices"
                 ],
@@ -6414,7 +6463,7 @@
                     {
                         "name": "Invoice",
                         "in": "body",
-                        "description": "The entity to patch",
+                        "description": "New property values",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Invoice"
                         }
@@ -6422,10 +6471,10 @@
                 ],
                 "responses": {
                     "204": {
-                        "description": "Empty response"
+                        "description": "Success"
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -6434,7 +6483,6 @@
             },
             "delete": {
                 "summary": "Delete entity from Invoices",
-                "description": "Delete entity from entity set Invoices",
                 "tags": [
                     "Invoices"
                 ],
@@ -6507,16 +6555,16 @@
                     {
                         "name": "If-Match",
                         "in": "header",
-                        "description": "If-Match header",
+                        "description": "ETag",
                         "type": "string"
                     }
                 ],
                 "responses": {
                     "204": {
-                        "description": "Empty response"
+                        "description": "Success"
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -6527,7 +6575,6 @@
         "/Order_Details_Extendeds": {
             "get": {
                 "summary": "Get entities from Order_Details_Extendeds",
-                "description": "Get entities from entity set Order_Details_Extendeds",
                 "tags": [
                     "Order_Details_Extendeds"
                 ],
@@ -6550,7 +6597,7 @@
                     {
                         "name": "$orderby",
                         "in": "query",
-                        "description": "Order by property values, see [OData Sorting](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398305)",
+                        "description": "Order items by property values, see [OData Sorting](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398305)",
                         "type": "array",
                         "uniqueItems": true,
                         "items": {
@@ -6595,10 +6642,10 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "EntitySet Order_Details_Extendeds",
+                        "description": "Retrieved entities",
                         "schema": {
                             "type": "object",
-                            "title": "Collection of NorthwindModel.Order_Details_Extended",
+                            "title": "Collection of Order_Details_Extended",
                             "properties": {
                                 "value": {
                                     "type": "array",
@@ -6610,7 +6657,7 @@
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -6619,7 +6666,6 @@
             },
             "post": {
                 "summary": "Add new entity to Order_Details_Extendeds",
-                "description": "Post a new entity to entity set Order_Details_Extendeds",
                 "tags": [
                     "Order_Details_Extendeds"
                 ],
@@ -6627,7 +6673,7 @@
                     {
                         "name": "Order_Details_Extended",
                         "in": "body",
-                        "description": "The new entity",
+                        "description": "New entity",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Order_Details_Extended"
                         }
@@ -6641,7 +6687,7 @@
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -6652,7 +6698,6 @@
         "/Order_Details_Extendeds(Discount={Discount},OrderID={OrderID},ProductID={ProductID},ProductName='{ProductName}',Quantity={Quantity},UnitPrice='{UnitPrice}')": {
             "get": {
                 "summary": "Get entity from Order_Details_Extendeds by key",
-                "description": "Returns the entity with the key from Order_Details_Extendeds",
                 "tags": [
                     "Order_Details_Extendeds"
                 ],
@@ -6723,13 +6768,13 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "EntitySet Order_Details_Extendeds",
+                        "description": "Retrieved entity",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Order_Details_Extended"
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -6738,7 +6783,6 @@
             },
             "patch": {
                 "summary": "Update entity in Order_Details_Extendeds",
-                "description": "Update entity in entity set Order_Details_Extendeds",
                 "tags": [
                     "Order_Details_Extendeds"
                 ],
@@ -6790,7 +6834,7 @@
                     {
                         "name": "Order_Details_Extended",
                         "in": "body",
-                        "description": "The entity to patch",
+                        "description": "New property values",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Order_Details_Extended"
                         }
@@ -6798,10 +6842,10 @@
                 ],
                 "responses": {
                     "204": {
-                        "description": "Empty response"
+                        "description": "Success"
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -6810,7 +6854,6 @@
             },
             "delete": {
                 "summary": "Delete entity from Order_Details_Extendeds",
-                "description": "Delete entity from entity set Order_Details_Extendeds",
                 "tags": [
                     "Order_Details_Extendeds"
                 ],
@@ -6862,16 +6905,16 @@
                     {
                         "name": "If-Match",
                         "in": "header",
-                        "description": "If-Match header",
+                        "description": "ETag",
                         "type": "string"
                     }
                 ],
                 "responses": {
                     "204": {
-                        "description": "Empty response"
+                        "description": "Success"
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -6882,7 +6925,6 @@
         "/Order_Subtotals": {
             "get": {
                 "summary": "Get entities from Order_Subtotals",
-                "description": "Get entities from entity set Order_Subtotals",
                 "tags": [
                     "Order_Subtotals"
                 ],
@@ -6905,7 +6947,7 @@
                     {
                         "name": "$orderby",
                         "in": "query",
-                        "description": "Order by property values, see [OData Sorting](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398305)",
+                        "description": "Order items by property values, see [OData Sorting](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398305)",
                         "type": "array",
                         "uniqueItems": true,
                         "items": {
@@ -6935,10 +6977,10 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "EntitySet Order_Subtotals",
+                        "description": "Retrieved entities",
                         "schema": {
                             "type": "object",
-                            "title": "Collection of NorthwindModel.Order_Subtotal",
+                            "title": "Collection of Order_Subtotal",
                             "properties": {
                                 "value": {
                                     "type": "array",
@@ -6950,7 +6992,7 @@
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -6959,7 +7001,6 @@
             },
             "post": {
                 "summary": "Add new entity to Order_Subtotals",
-                "description": "Post a new entity to entity set Order_Subtotals",
                 "tags": [
                     "Order_Subtotals"
                 ],
@@ -6967,7 +7008,7 @@
                     {
                         "name": "Order_Subtotal",
                         "in": "body",
-                        "description": "The new entity",
+                        "description": "New entity",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Order_Subtotal"
                         }
@@ -6981,7 +7022,7 @@
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -6992,7 +7033,6 @@
         "/Order_Subtotals({OrderID})": {
             "get": {
                 "summary": "Get entity from Order_Subtotals by key",
-                "description": "Returns the entity with the key from Order_Subtotals",
                 "tags": [
                     "Order_Subtotals"
                 ],
@@ -7022,13 +7062,13 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "EntitySet Order_Subtotals",
+                        "description": "Retrieved entity",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Order_Subtotal"
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -7037,7 +7077,6 @@
             },
             "patch": {
                 "summary": "Update entity in Order_Subtotals",
-                "description": "Update entity in entity set Order_Subtotals",
                 "tags": [
                     "Order_Subtotals"
                 ],
@@ -7053,7 +7092,7 @@
                     {
                         "name": "Order_Subtotal",
                         "in": "body",
-                        "description": "The entity to patch",
+                        "description": "New property values",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Order_Subtotal"
                         }
@@ -7061,10 +7100,10 @@
                 ],
                 "responses": {
                     "204": {
-                        "description": "Empty response"
+                        "description": "Success"
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -7073,7 +7112,6 @@
             },
             "delete": {
                 "summary": "Delete entity from Order_Subtotals",
-                "description": "Delete entity from entity set Order_Subtotals",
                 "tags": [
                     "Order_Subtotals"
                 ],
@@ -7089,16 +7127,16 @@
                     {
                         "name": "If-Match",
                         "in": "header",
-                        "description": "If-Match header",
+                        "description": "ETag",
                         "type": "string"
                     }
                 ],
                 "responses": {
                     "204": {
-                        "description": "Empty response"
+                        "description": "Success"
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -7109,7 +7147,6 @@
         "/Orders_Qries": {
             "get": {
                 "summary": "Get entities from Orders_Qries",
-                "description": "Get entities from entity set Orders_Qries",
                 "tags": [
                     "Orders_Qries"
                 ],
@@ -7132,7 +7169,7 @@
                     {
                         "name": "$orderby",
                         "in": "query",
-                        "description": "Order by property values, see [OData Sorting](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398305)",
+                        "description": "Order items by property values, see [OData Sorting](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398305)",
                         "type": "array",
                         "uniqueItems": true,
                         "items": {
@@ -7216,10 +7253,10 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "EntitySet Orders_Qries",
+                        "description": "Retrieved entities",
                         "schema": {
                             "type": "object",
-                            "title": "Collection of NorthwindModel.Orders_Qry",
+                            "title": "Collection of Orders_Qry",
                             "properties": {
                                 "value": {
                                     "type": "array",
@@ -7231,7 +7268,7 @@
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -7240,7 +7277,6 @@
             },
             "post": {
                 "summary": "Add new entity to Orders_Qries",
-                "description": "Post a new entity to entity set Orders_Qries",
                 "tags": [
                     "Orders_Qries"
                 ],
@@ -7248,7 +7284,7 @@
                     {
                         "name": "Orders_Qry",
                         "in": "body",
-                        "description": "The new entity",
+                        "description": "New entity",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Orders_Qry"
                         }
@@ -7262,7 +7298,7 @@
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -7273,7 +7309,6 @@
         "/Orders_Qries(CompanyName='{CompanyName}',OrderID={OrderID})": {
             "get": {
                 "summary": "Get entity from Orders_Qries by key",
-                "description": "Returns the entity with the key from Orders_Qries",
                 "tags": [
                     "Orders_Qries"
                 ],
@@ -7328,13 +7363,13 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "EntitySet Orders_Qries",
+                        "description": "Retrieved entity",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Orders_Qry"
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -7343,7 +7378,6 @@
             },
             "patch": {
                 "summary": "Update entity in Orders_Qries",
-                "description": "Update entity in entity set Orders_Qries",
                 "tags": [
                     "Orders_Qries"
                 ],
@@ -7366,7 +7400,7 @@
                     {
                         "name": "Orders_Qry",
                         "in": "body",
-                        "description": "The entity to patch",
+                        "description": "New property values",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Orders_Qry"
                         }
@@ -7374,10 +7408,10 @@
                 ],
                 "responses": {
                     "204": {
-                        "description": "Empty response"
+                        "description": "Success"
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -7386,7 +7420,6 @@
             },
             "delete": {
                 "summary": "Delete entity from Orders_Qries",
-                "description": "Delete entity from entity set Orders_Qries",
                 "tags": [
                     "Orders_Qries"
                 ],
@@ -7409,16 +7442,16 @@
                     {
                         "name": "If-Match",
                         "in": "header",
-                        "description": "If-Match header",
+                        "description": "ETag",
                         "type": "string"
                     }
                 ],
                 "responses": {
                     "204": {
-                        "description": "Empty response"
+                        "description": "Success"
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -7429,7 +7462,6 @@
         "/Product_Sales_for_1997": {
             "get": {
                 "summary": "Get entities from Product_Sales_for_1997",
-                "description": "Get entities from entity set Product_Sales_for_1997",
                 "tags": [
                     "Product_Sales_for_1997"
                 ],
@@ -7452,7 +7484,7 @@
                     {
                         "name": "$orderby",
                         "in": "query",
-                        "description": "Order by property values, see [OData Sorting](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398305)",
+                        "description": "Order items by property values, see [OData Sorting](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398305)",
                         "type": "array",
                         "uniqueItems": true,
                         "items": {
@@ -7485,10 +7517,10 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "EntitySet Product_Sales_for_1997",
+                        "description": "Retrieved entities",
                         "schema": {
                             "type": "object",
-                            "title": "Collection of NorthwindModel.Product_Sales_for_1997",
+                            "title": "Collection of Product_Sales_for_1997",
                             "properties": {
                                 "value": {
                                     "type": "array",
@@ -7500,7 +7532,7 @@
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -7509,7 +7541,6 @@
             },
             "post": {
                 "summary": "Add new entity to Product_Sales_for_1997",
-                "description": "Post a new entity to entity set Product_Sales_for_1997",
                 "tags": [
                     "Product_Sales_for_1997"
                 ],
@@ -7517,7 +7548,7 @@
                     {
                         "name": "Product_Sales_for_1997",
                         "in": "body",
-                        "description": "The new entity",
+                        "description": "New entity",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Product_Sales_for_1997"
                         }
@@ -7531,7 +7562,7 @@
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -7542,7 +7573,6 @@
         "/Product_Sales_for_1997(CategoryName='{CategoryName}',ProductName='{ProductName}')": {
             "get": {
                 "summary": "Get entity from Product_Sales_for_1997 by key",
-                "description": "Returns the entity with the key from Product_Sales_for_1997",
                 "tags": [
                     "Product_Sales_for_1997"
                 ],
@@ -7579,13 +7609,13 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "EntitySet Product_Sales_for_1997",
+                        "description": "Retrieved entity",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Product_Sales_for_1997"
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -7594,7 +7624,6 @@
             },
             "patch": {
                 "summary": "Update entity in Product_Sales_for_1997",
-                "description": "Update entity in entity set Product_Sales_for_1997",
                 "tags": [
                     "Product_Sales_for_1997"
                 ],
@@ -7616,7 +7645,7 @@
                     {
                         "name": "Product_Sales_for_1997",
                         "in": "body",
-                        "description": "The entity to patch",
+                        "description": "New property values",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Product_Sales_for_1997"
                         }
@@ -7624,10 +7653,10 @@
                 ],
                 "responses": {
                     "204": {
-                        "description": "Empty response"
+                        "description": "Success"
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -7636,7 +7665,6 @@
             },
             "delete": {
                 "summary": "Delete entity from Product_Sales_for_1997",
-                "description": "Delete entity from entity set Product_Sales_for_1997",
                 "tags": [
                     "Product_Sales_for_1997"
                 ],
@@ -7658,16 +7686,16 @@
                     {
                         "name": "If-Match",
                         "in": "header",
-                        "description": "If-Match header",
+                        "description": "ETag",
                         "type": "string"
                     }
                 ],
                 "responses": {
                     "204": {
-                        "description": "Empty response"
+                        "description": "Success"
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -7678,7 +7706,6 @@
         "/Products_Above_Average_Prices": {
             "get": {
                 "summary": "Get entities from Products_Above_Average_Prices",
-                "description": "Get entities from entity set Products_Above_Average_Prices",
                 "tags": [
                     "Products_Above_Average_Prices"
                 ],
@@ -7701,7 +7728,7 @@
                     {
                         "name": "$orderby",
                         "in": "query",
-                        "description": "Order by property values, see [OData Sorting](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398305)",
+                        "description": "Order items by property values, see [OData Sorting](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398305)",
                         "type": "array",
                         "uniqueItems": true,
                         "items": {
@@ -7731,10 +7758,10 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "EntitySet Products_Above_Average_Prices",
+                        "description": "Retrieved entities",
                         "schema": {
                             "type": "object",
-                            "title": "Collection of NorthwindModel.Products_Above_Average_Price",
+                            "title": "Collection of Products_Above_Average_Price",
                             "properties": {
                                 "value": {
                                     "type": "array",
@@ -7746,7 +7773,7 @@
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -7755,7 +7782,6 @@
             },
             "post": {
                 "summary": "Add new entity to Products_Above_Average_Prices",
-                "description": "Post a new entity to entity set Products_Above_Average_Prices",
                 "tags": [
                     "Products_Above_Average_Prices"
                 ],
@@ -7763,7 +7789,7 @@
                     {
                         "name": "Products_Above_Average_Price",
                         "in": "body",
-                        "description": "The new entity",
+                        "description": "New entity",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Products_Above_Average_Price"
                         }
@@ -7777,7 +7803,7 @@
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -7788,7 +7814,6 @@
         "/Products_Above_Average_Prices('{ProductName}')": {
             "get": {
                 "summary": "Get entity from Products_Above_Average_Prices by key",
-                "description": "Returns the entity with the key from Products_Above_Average_Prices",
                 "tags": [
                     "Products_Above_Average_Prices"
                 ],
@@ -7817,13 +7842,13 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "EntitySet Products_Above_Average_Prices",
+                        "description": "Retrieved entity",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Products_Above_Average_Price"
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -7832,7 +7857,6 @@
             },
             "patch": {
                 "summary": "Update entity in Products_Above_Average_Prices",
-                "description": "Update entity in entity set Products_Above_Average_Prices",
                 "tags": [
                     "Products_Above_Average_Prices"
                 ],
@@ -7847,7 +7871,7 @@
                     {
                         "name": "Products_Above_Average_Price",
                         "in": "body",
-                        "description": "The entity to patch",
+                        "description": "New property values",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Products_Above_Average_Price"
                         }
@@ -7855,10 +7879,10 @@
                 ],
                 "responses": {
                     "204": {
-                        "description": "Empty response"
+                        "description": "Success"
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -7867,7 +7891,6 @@
             },
             "delete": {
                 "summary": "Delete entity from Products_Above_Average_Prices",
-                "description": "Delete entity from entity set Products_Above_Average_Prices",
                 "tags": [
                     "Products_Above_Average_Prices"
                 ],
@@ -7882,16 +7905,16 @@
                     {
                         "name": "If-Match",
                         "in": "header",
-                        "description": "If-Match header",
+                        "description": "ETag",
                         "type": "string"
                     }
                 ],
                 "responses": {
                     "204": {
-                        "description": "Empty response"
+                        "description": "Success"
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -7902,7 +7925,6 @@
         "/Products_by_Categories": {
             "get": {
                 "summary": "Get entities from Products_by_Categories",
-                "description": "Get entities from entity set Products_by_Categories",
                 "tags": [
                     "Products_by_Categories"
                 ],
@@ -7925,7 +7947,7 @@
                     {
                         "name": "$orderby",
                         "in": "query",
-                        "description": "Order by property values, see [OData Sorting](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398305)",
+                        "description": "Order items by property values, see [OData Sorting](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398305)",
                         "type": "array",
                         "uniqueItems": true,
                         "items": {
@@ -7964,10 +7986,10 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "EntitySet Products_by_Categories",
+                        "description": "Retrieved entities",
                         "schema": {
                             "type": "object",
-                            "title": "Collection of NorthwindModel.Products_by_Category",
+                            "title": "Collection of Products_by_Category",
                             "properties": {
                                 "value": {
                                     "type": "array",
@@ -7979,7 +8001,7 @@
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -7988,7 +8010,6 @@
             },
             "post": {
                 "summary": "Add new entity to Products_by_Categories",
-                "description": "Post a new entity to entity set Products_by_Categories",
                 "tags": [
                     "Products_by_Categories"
                 ],
@@ -7996,7 +8017,7 @@
                     {
                         "name": "Products_by_Category",
                         "in": "body",
-                        "description": "The new entity",
+                        "description": "New entity",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Products_by_Category"
                         }
@@ -8010,7 +8031,7 @@
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -8021,7 +8042,6 @@
         "/Products_by_Categories(CategoryName='{CategoryName}',Discontinued='{Discontinued}',ProductName='{ProductName}')": {
             "get": {
                 "summary": "Get entity from Products_by_Categories by key",
-                "description": "Returns the entity with the key from Products_by_Categories",
                 "tags": [
                     "Products_by_Categories"
                 ],
@@ -8067,13 +8087,13 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "EntitySet Products_by_Categories",
+                        "description": "Retrieved entity",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Products_by_Category"
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -8082,7 +8102,6 @@
             },
             "patch": {
                 "summary": "Update entity in Products_by_Categories",
-                "description": "Update entity in entity set Products_by_Categories",
                 "tags": [
                     "Products_by_Categories"
                 ],
@@ -8111,7 +8130,7 @@
                     {
                         "name": "Products_by_Category",
                         "in": "body",
-                        "description": "The entity to patch",
+                        "description": "New property values",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Products_by_Category"
                         }
@@ -8119,10 +8138,10 @@
                 ],
                 "responses": {
                     "204": {
-                        "description": "Empty response"
+                        "description": "Success"
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -8131,7 +8150,6 @@
             },
             "delete": {
                 "summary": "Delete entity from Products_by_Categories",
-                "description": "Delete entity from entity set Products_by_Categories",
                 "tags": [
                     "Products_by_Categories"
                 ],
@@ -8160,16 +8178,16 @@
                     {
                         "name": "If-Match",
                         "in": "header",
-                        "description": "If-Match header",
+                        "description": "ETag",
                         "type": "string"
                     }
                 ],
                 "responses": {
                     "204": {
-                        "description": "Empty response"
+                        "description": "Success"
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -8180,7 +8198,6 @@
         "/Sales_by_Categories": {
             "get": {
                 "summary": "Get entities from Sales_by_Categories",
-                "description": "Get entities from entity set Sales_by_Categories",
                 "tags": [
                     "Sales_by_Categories"
                 ],
@@ -8203,7 +8220,7 @@
                     {
                         "name": "$orderby",
                         "in": "query",
-                        "description": "Order by property values, see [OData Sorting](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398305)",
+                        "description": "Order items by property values, see [OData Sorting](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398305)",
                         "type": "array",
                         "uniqueItems": true,
                         "items": {
@@ -8239,10 +8256,10 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "EntitySet Sales_by_Categories",
+                        "description": "Retrieved entities",
                         "schema": {
                             "type": "object",
-                            "title": "Collection of NorthwindModel.Sales_by_Category",
+                            "title": "Collection of Sales_by_Category",
                             "properties": {
                                 "value": {
                                     "type": "array",
@@ -8254,7 +8271,7 @@
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -8263,7 +8280,6 @@
             },
             "post": {
                 "summary": "Add new entity to Sales_by_Categories",
-                "description": "Post a new entity to entity set Sales_by_Categories",
                 "tags": [
                     "Sales_by_Categories"
                 ],
@@ -8271,7 +8287,7 @@
                     {
                         "name": "Sales_by_Category",
                         "in": "body",
-                        "description": "The new entity",
+                        "description": "New entity",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Sales_by_Category"
                         }
@@ -8285,7 +8301,7 @@
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -8296,7 +8312,6 @@
         "/Sales_by_Categories(CategoryID={CategoryID},CategoryName='{CategoryName}',ProductName='{ProductName}')": {
             "get": {
                 "summary": "Get entity from Sales_by_Categories by key",
-                "description": "Returns the entity with the key from Sales_by_Categories",
                 "tags": [
                     "Sales_by_Categories"
                 ],
@@ -8342,13 +8357,13 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "EntitySet Sales_by_Categories",
+                        "description": "Retrieved entity",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Sales_by_Category"
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -8357,7 +8372,6 @@
             },
             "patch": {
                 "summary": "Update entity in Sales_by_Categories",
-                "description": "Update entity in entity set Sales_by_Categories",
                 "tags": [
                     "Sales_by_Categories"
                 ],
@@ -8387,7 +8401,7 @@
                     {
                         "name": "Sales_by_Category",
                         "in": "body",
-                        "description": "The entity to patch",
+                        "description": "New property values",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Sales_by_Category"
                         }
@@ -8395,10 +8409,10 @@
                 ],
                 "responses": {
                     "204": {
-                        "description": "Empty response"
+                        "description": "Success"
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -8407,7 +8421,6 @@
             },
             "delete": {
                 "summary": "Delete entity from Sales_by_Categories",
-                "description": "Delete entity from entity set Sales_by_Categories",
                 "tags": [
                     "Sales_by_Categories"
                 ],
@@ -8437,16 +8450,16 @@
                     {
                         "name": "If-Match",
                         "in": "header",
-                        "description": "If-Match header",
+                        "description": "ETag",
                         "type": "string"
                     }
                 ],
                 "responses": {
                     "204": {
-                        "description": "Empty response"
+                        "description": "Success"
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -8457,7 +8470,6 @@
         "/Sales_Totals_by_Amounts": {
             "get": {
                 "summary": "Get entities from Sales_Totals_by_Amounts",
-                "description": "Get entities from entity set Sales_Totals_by_Amounts",
                 "tags": [
                     "Sales_Totals_by_Amounts"
                 ],
@@ -8480,7 +8492,7 @@
                     {
                         "name": "$orderby",
                         "in": "query",
-                        "description": "Order by property values, see [OData Sorting](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398305)",
+                        "description": "Order items by property values, see [OData Sorting](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398305)",
                         "type": "array",
                         "uniqueItems": true,
                         "items": {
@@ -8516,10 +8528,10 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "EntitySet Sales_Totals_by_Amounts",
+                        "description": "Retrieved entities",
                         "schema": {
                             "type": "object",
-                            "title": "Collection of NorthwindModel.Sales_Totals_by_Amount",
+                            "title": "Collection of Sales_Totals_by_Amount",
                             "properties": {
                                 "value": {
                                     "type": "array",
@@ -8531,7 +8543,7 @@
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -8540,7 +8552,6 @@
             },
             "post": {
                 "summary": "Add new entity to Sales_Totals_by_Amounts",
-                "description": "Post a new entity to entity set Sales_Totals_by_Amounts",
                 "tags": [
                     "Sales_Totals_by_Amounts"
                 ],
@@ -8548,7 +8559,7 @@
                     {
                         "name": "Sales_Totals_by_Amount",
                         "in": "body",
-                        "description": "The new entity",
+                        "description": "New entity",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Sales_Totals_by_Amount"
                         }
@@ -8562,7 +8573,7 @@
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -8573,7 +8584,6 @@
         "/Sales_Totals_by_Amounts(CompanyName='{CompanyName}',OrderID={OrderID})": {
             "get": {
                 "summary": "Get entity from Sales_Totals_by_Amounts by key",
-                "description": "Returns the entity with the key from Sales_Totals_by_Amounts",
                 "tags": [
                     "Sales_Totals_by_Amounts"
                 ],
@@ -8612,13 +8622,13 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "EntitySet Sales_Totals_by_Amounts",
+                        "description": "Retrieved entity",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Sales_Totals_by_Amount"
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -8627,7 +8637,6 @@
             },
             "patch": {
                 "summary": "Update entity in Sales_Totals_by_Amounts",
-                "description": "Update entity in entity set Sales_Totals_by_Amounts",
                 "tags": [
                     "Sales_Totals_by_Amounts"
                 ],
@@ -8650,7 +8659,7 @@
                     {
                         "name": "Sales_Totals_by_Amount",
                         "in": "body",
-                        "description": "The entity to patch",
+                        "description": "New property values",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Sales_Totals_by_Amount"
                         }
@@ -8658,10 +8667,10 @@
                 ],
                 "responses": {
                     "204": {
-                        "description": "Empty response"
+                        "description": "Success"
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -8670,7 +8679,6 @@
             },
             "delete": {
                 "summary": "Delete entity from Sales_Totals_by_Amounts",
-                "description": "Delete entity from entity set Sales_Totals_by_Amounts",
                 "tags": [
                     "Sales_Totals_by_Amounts"
                 ],
@@ -8693,16 +8701,16 @@
                     {
                         "name": "If-Match",
                         "in": "header",
-                        "description": "If-Match header",
+                        "description": "ETag",
                         "type": "string"
                     }
                 ],
                 "responses": {
                     "204": {
-                        "description": "Empty response"
+                        "description": "Success"
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -8713,7 +8721,6 @@
         "/Summary_of_Sales_by_Quarters": {
             "get": {
                 "summary": "Get entities from Summary_of_Sales_by_Quarters",
-                "description": "Get entities from entity set Summary_of_Sales_by_Quarters",
                 "tags": [
                     "Summary_of_Sales_by_Quarters"
                 ],
@@ -8736,7 +8743,7 @@
                     {
                         "name": "$orderby",
                         "in": "query",
-                        "description": "Order by property values, see [OData Sorting](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398305)",
+                        "description": "Order items by property values, see [OData Sorting](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398305)",
                         "type": "array",
                         "uniqueItems": true,
                         "items": {
@@ -8769,10 +8776,10 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "EntitySet Summary_of_Sales_by_Quarters",
+                        "description": "Retrieved entities",
                         "schema": {
                             "type": "object",
-                            "title": "Collection of NorthwindModel.Summary_of_Sales_by_Quarter",
+                            "title": "Collection of Summary_of_Sales_by_Quarter",
                             "properties": {
                                 "value": {
                                     "type": "array",
@@ -8784,7 +8791,7 @@
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -8793,7 +8800,6 @@
             },
             "post": {
                 "summary": "Add new entity to Summary_of_Sales_by_Quarters",
-                "description": "Post a new entity to entity set Summary_of_Sales_by_Quarters",
                 "tags": [
                     "Summary_of_Sales_by_Quarters"
                 ],
@@ -8801,7 +8807,7 @@
                     {
                         "name": "Summary_of_Sales_by_Quarter",
                         "in": "body",
-                        "description": "The new entity",
+                        "description": "New entity",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Summary_of_Sales_by_Quarter"
                         }
@@ -8815,7 +8821,7 @@
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -8826,7 +8832,6 @@
         "/Summary_of_Sales_by_Quarters({OrderID})": {
             "get": {
                 "summary": "Get entity from Summary_of_Sales_by_Quarters by key",
-                "description": "Returns the entity with the key from Summary_of_Sales_by_Quarters",
                 "tags": [
                     "Summary_of_Sales_by_Quarters"
                 ],
@@ -8857,13 +8862,13 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "EntitySet Summary_of_Sales_by_Quarters",
+                        "description": "Retrieved entity",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Summary_of_Sales_by_Quarter"
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -8872,7 +8877,6 @@
             },
             "patch": {
                 "summary": "Update entity in Summary_of_Sales_by_Quarters",
-                "description": "Update entity in entity set Summary_of_Sales_by_Quarters",
                 "tags": [
                     "Summary_of_Sales_by_Quarters"
                 ],
@@ -8888,7 +8892,7 @@
                     {
                         "name": "Summary_of_Sales_by_Quarter",
                         "in": "body",
-                        "description": "The entity to patch",
+                        "description": "New property values",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Summary_of_Sales_by_Quarter"
                         }
@@ -8896,10 +8900,10 @@
                 ],
                 "responses": {
                     "204": {
-                        "description": "Empty response"
+                        "description": "Success"
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -8908,7 +8912,6 @@
             },
             "delete": {
                 "summary": "Delete entity from Summary_of_Sales_by_Quarters",
-                "description": "Delete entity from entity set Summary_of_Sales_by_Quarters",
                 "tags": [
                     "Summary_of_Sales_by_Quarters"
                 ],
@@ -8924,16 +8927,16 @@
                     {
                         "name": "If-Match",
                         "in": "header",
-                        "description": "If-Match header",
+                        "description": "ETag",
                         "type": "string"
                     }
                 ],
                 "responses": {
                     "204": {
-                        "description": "Empty response"
+                        "description": "Success"
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -8944,7 +8947,6 @@
         "/Summary_of_Sales_by_Years": {
             "get": {
                 "summary": "Get entities from Summary_of_Sales_by_Years",
-                "description": "Get entities from entity set Summary_of_Sales_by_Years",
                 "tags": [
                     "Summary_of_Sales_by_Years"
                 ],
@@ -8967,7 +8969,7 @@
                     {
                         "name": "$orderby",
                         "in": "query",
-                        "description": "Order by property values, see [OData Sorting](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398305)",
+                        "description": "Order items by property values, see [OData Sorting](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398305)",
                         "type": "array",
                         "uniqueItems": true,
                         "items": {
@@ -9000,10 +9002,10 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "EntitySet Summary_of_Sales_by_Years",
+                        "description": "Retrieved entities",
                         "schema": {
                             "type": "object",
-                            "title": "Collection of NorthwindModel.Summary_of_Sales_by_Year",
+                            "title": "Collection of Summary_of_Sales_by_Year",
                             "properties": {
                                 "value": {
                                     "type": "array",
@@ -9015,7 +9017,7 @@
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -9024,7 +9026,6 @@
             },
             "post": {
                 "summary": "Add new entity to Summary_of_Sales_by_Years",
-                "description": "Post a new entity to entity set Summary_of_Sales_by_Years",
                 "tags": [
                     "Summary_of_Sales_by_Years"
                 ],
@@ -9032,7 +9033,7 @@
                     {
                         "name": "Summary_of_Sales_by_Year",
                         "in": "body",
-                        "description": "The new entity",
+                        "description": "New entity",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Summary_of_Sales_by_Year"
                         }
@@ -9046,7 +9047,7 @@
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -9057,7 +9058,6 @@
         "/Summary_of_Sales_by_Years({OrderID})": {
             "get": {
                 "summary": "Get entity from Summary_of_Sales_by_Years by key",
-                "description": "Returns the entity with the key from Summary_of_Sales_by_Years",
                 "tags": [
                     "Summary_of_Sales_by_Years"
                 ],
@@ -9088,13 +9088,13 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "EntitySet Summary_of_Sales_by_Years",
+                        "description": "Retrieved entity",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Summary_of_Sales_by_Year"
                         }
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -9103,7 +9103,6 @@
             },
             "patch": {
                 "summary": "Update entity in Summary_of_Sales_by_Years",
-                "description": "Update entity in entity set Summary_of_Sales_by_Years",
                 "tags": [
                     "Summary_of_Sales_by_Years"
                 ],
@@ -9119,7 +9118,7 @@
                     {
                         "name": "Summary_of_Sales_by_Year",
                         "in": "body",
-                        "description": "The entity to patch",
+                        "description": "New property values",
                         "schema": {
                             "$ref": "#/definitions/NorthwindModel.Summary_of_Sales_by_Year"
                         }
@@ -9127,10 +9126,10 @@
                 ],
                 "responses": {
                     "204": {
-                        "description": "Empty response"
+                        "description": "Success"
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -9139,7 +9138,6 @@
             },
             "delete": {
                 "summary": "Delete entity from Summary_of_Sales_by_Years",
-                "description": "Delete entity from entity set Summary_of_Sales_by_Years",
                 "tags": [
                     "Summary_of_Sales_by_Years"
                 ],
@@ -9155,16 +9153,16 @@
                     {
                         "name": "If-Match",
                         "in": "header",
-                        "description": "If-Match header",
+                        "description": "ETag",
                         "type": "string"
                     }
                 ],
                 "responses": {
                     "204": {
-                        "description": "Empty response"
+                        "description": "Success"
                     },
                     "default": {
-                        "description": "Unexpected error",
+                        "description": "Error",
                         "schema": {
                             "$ref": "https://raw.githubusercontent.com/ralfhandl/odata/master/edm.json#/definitions/odata.error"
                         }
@@ -9177,31 +9175,31 @@
         "top": {
             "name": "$top",
             "in": "query",
-            "description": "Show only the first n elements, see [OData Paging - Top](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398306)",
+            "description": "Show only the first n items, see [OData Paging - Top](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398306)",
             "type": "integer"
         },
         "skip": {
             "name": "$skip",
             "in": "query",
-            "description": "Skip the first n elements, see [OData Paging - Skip](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398307)",
+            "description": "Skip the first n items, see [OData Paging - Skip](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398307)",
             "type": "integer"
         },
         "count": {
             "name": "$count",
             "in": "query",
-            "description": "Include count of elements, see [OData Count](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398308)",
+            "description": "Include count of items, see [OData Count](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398308)",
             "type": "boolean"
         },
         "filter": {
             "name": "$filter",
             "in": "query",
-            "description": "Filter elements by property values, see [OData Filtering](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398301)",
+            "description": "Filter items by property values, see [OData Filtering](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398301)",
             "type": "string"
         },
         "search": {
             "name": "$search",
             "in": "query",
-            "description": "Search elements by search phrases, see [OData Searching](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398309)",
+            "description": "Search items by search phrases, see [OData Searching](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398309)",
             "type": "string"
         }
     }
