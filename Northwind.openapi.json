@@ -99,7 +99,6 @@
     ],
     "definitions": {
         "NorthwindModel.Category": {
-            "title": "Category",
             "type": "object",
             "x-keys": [
                 "CategoryID"
@@ -137,10 +136,10 @@
                         "partner": "Category"
                     }
                 }
-            }
+            },
+            "title": "Category"
         },
         "NorthwindModel.CustomerDemographic": {
-            "title": "CustomerDemographic",
             "type": "object",
             "x-keys": [
                 "CustomerTypeID"
@@ -166,10 +165,10 @@
                         "partner": "CustomerDemographics"
                     }
                 }
-            }
+            },
+            "title": "CustomerDemographic"
         },
         "NorthwindModel.Customer": {
-            "title": "Customer",
             "type": "object",
             "x-keys": [
                 "CustomerID"
@@ -273,10 +272,10 @@
                         "partner": "Customers"
                     }
                 }
-            }
+            },
+            "title": "Customer"
         },
         "NorthwindModel.Employee": {
-            "title": "Employee",
             "type": "object",
             "x-keys": [
                 "EmployeeID"
@@ -452,10 +451,10 @@
                         "partner": "Employees"
                     }
                 }
-            }
+            },
+            "title": "Employee"
         },
         "NorthwindModel.Order_Detail": {
-            "title": "Order_Detail",
             "type": "object",
             "x-keys": [
                 "OrderID",
@@ -513,10 +512,10 @@
                         }
                     }
                 }
-            }
+            },
+            "title": "Order_Detail"
         },
         "NorthwindModel.Order": {
-            "title": "Order",
             "type": "object",
             "x-keys": [
                 "OrderID"
@@ -679,10 +678,10 @@
                         }
                     }
                 }
-            }
+            },
+            "title": "Order"
         },
         "NorthwindModel.Product": {
-            "title": "Product",
             "type": "object",
             "x-keys": [
                 "ProductID"
@@ -792,10 +791,10 @@
                         }
                     }
                 }
-            }
+            },
+            "title": "Product"
         },
         "NorthwindModel.Region": {
-            "title": "Region",
             "type": "object",
             "x-keys": [
                 "RegionID"
@@ -818,10 +817,10 @@
                         "partner": "Region"
                     }
                 }
-            }
+            },
+            "title": "Region"
         },
         "NorthwindModel.Shipper": {
-            "title": "Shipper",
             "type": "object",
             "x-keys": [
                 "ShipperID"
@@ -852,10 +851,10 @@
                         "partner": "Shipper"
                     }
                 }
-            }
+            },
+            "title": "Shipper"
         },
         "NorthwindModel.Supplier": {
-            "title": "Supplier",
             "type": "object",
             "x-keys": [
                 "SupplierID"
@@ -957,10 +956,10 @@
                         "partner": "Supplier"
                     }
                 }
-            }
+            },
+            "title": "Supplier"
         },
         "NorthwindModel.Territory": {
-            "title": "Territory",
             "type": "object",
             "x-keys": [
                 "TerritoryID"
@@ -998,10 +997,10 @@
                         "partner": "Territories"
                     }
                 }
-            }
+            },
+            "title": "Territory"
         },
         "NorthwindModel.Alphabetical_list_of_product": {
-            "title": "Alphabetical_list_of_product",
             "type": "object",
             "x-keys": [
                 "CategoryName",
@@ -1085,10 +1084,10 @@
                     "type": "string",
                     "maxLength": 15
                 }
-            }
+            },
+            "title": "Alphabetical_list_of_product"
         },
         "NorthwindModel.Category_Sales_for_1997": {
-            "title": "Category_Sales_for_1997",
             "type": "object",
             "x-keys": [
                 "CategoryName"
@@ -1110,10 +1109,10 @@
                     "x-scale": 4,
                     "multipleOf": 1.0e-4
                 }
-            }
+            },
+            "title": "Category_Sales_for_1997"
         },
         "NorthwindModel.Current_Product_List": {
-            "title": "Current_Product_List",
             "type": "object",
             "x-keys": [
                 "ProductID",
@@ -1128,10 +1127,10 @@
                     "type": "string",
                     "maxLength": 40
                 }
-            }
+            },
+            "title": "Current_Product_List"
         },
         "NorthwindModel.Customer_and_Suppliers_by_City": {
-            "title": "Customer_and_Suppliers_by_City",
             "type": "object",
             "x-keys": [
                 "CompanyName",
@@ -1163,10 +1162,10 @@
                     "maxLength": 9,
                     "x-unicode": false
                 }
-            }
+            },
+            "title": "Customer_and_Suppliers_by_City"
         },
         "NorthwindModel.Invoice": {
-            "title": "Invoice",
             "type": "object",
             "x-keys": [
                 "CustomerName",
@@ -1369,10 +1368,10 @@
                     "x-scale": 4,
                     "multipleOf": 1.0e-4
                 }
-            }
+            },
+            "title": "Invoice"
         },
         "NorthwindModel.Order_Details_Extended": {
-            "title": "Order_Details_Extended",
             "type": "object",
             "x-keys": [
                 "Discount",
@@ -1428,10 +1427,10 @@
                     "x-scale": 4,
                     "multipleOf": 1.0e-4
                 }
-            }
+            },
+            "title": "Order_Details_Extended"
         },
         "NorthwindModel.Order_Subtotal": {
-            "title": "Order_Subtotal",
             "type": "object",
             "x-keys": [
                 "OrderID"
@@ -1453,10 +1452,10 @@
                     "x-scale": 4,
                     "multipleOf": 1.0e-4
                 }
-            }
+            },
+            "title": "Order_Subtotal"
         },
         "NorthwindModel.Orders_Qry": {
-            "title": "Orders_Qry",
             "type": "object",
             "x-keys": [
                 "CompanyName",
@@ -1619,10 +1618,10 @@
                     "x-nullable": true,
                     "maxLength": 15
                 }
-            }
+            },
+            "title": "Orders_Qry"
         },
         "NorthwindModel.Product_Sales_for_1997": {
-            "title": "Product_Sales_for_1997",
             "type": "object",
             "x-keys": [
                 "CategoryName",
@@ -1649,10 +1648,10 @@
                     "x-scale": 4,
                     "multipleOf": 1.0e-4
                 }
-            }
+            },
+            "title": "Product_Sales_for_1997"
         },
         "NorthwindModel.Products_Above_Average_Price": {
-            "title": "Products_Above_Average_Price",
             "type": "object",
             "x-keys": [
                 "ProductName"
@@ -1674,10 +1673,10 @@
                     "x-scale": 4,
                     "multipleOf": 1.0e-4
                 }
-            }
+            },
+            "title": "Products_Above_Average_Price"
         },
         "NorthwindModel.Products_by_Category": {
-            "title": "Products_by_Category",
             "type": "object",
             "x-keys": [
                 "CategoryName",
@@ -1712,10 +1711,10 @@
                 "Discontinued": {
                     "type": "boolean"
                 }
-            }
+            },
+            "title": "Products_by_Category"
         },
         "NorthwindModel.Sales_by_Category": {
-            "title": "Sales_by_Category",
             "type": "object",
             "x-keys": [
                 "CategoryID",
@@ -1747,10 +1746,10 @@
                     "x-scale": 4,
                     "multipleOf": 1.0e-4
                 }
-            }
+            },
+            "title": "Sales_by_Category"
         },
         "NorthwindModel.Sales_Totals_by_Amount": {
-            "title": "Sales_Totals_by_Amount",
             "type": "object",
             "x-keys": [
                 "CompanyName",
@@ -1785,10 +1784,10 @@
                     "x-nullable": true,
                     "format": "date-time"
                 }
-            }
+            },
+            "title": "Sales_Totals_by_Amount"
         },
         "NorthwindModel.Summary_of_Sales_by_Quarter": {
-            "title": "Summary_of_Sales_by_Quarter",
             "type": "object",
             "x-keys": [
                 "OrderID"
@@ -1818,10 +1817,10 @@
                     "x-scale": 4,
                     "multipleOf": 1.0e-4
                 }
-            }
+            },
+            "title": "Summary_of_Sales_by_Quarter"
         },
         "NorthwindModel.Summary_of_Sales_by_Year": {
-            "title": "Summary_of_Sales_by_Year",
             "type": "object",
             "x-keys": [
                 "OrderID"
@@ -1851,7 +1850,8 @@
                     "x-scale": 4,
                     "multipleOf": 1.0e-4
                 }
-            }
+            },
+            "title": "Summary_of_Sales_by_Year"
         }
     },
     "x-schemas": {
@@ -1868,21 +1868,27 @@
         "resources": {
             "Categories": {
                 "kind": "EntitySet",
-                "entityType": "NorthwindModel.Category",
+                "entityType": {
+                    "$ref": "#/definitions/NorthwindModel.Category"
+                },
                 "navigationPropertyBindings": {
                     "Products": "Products"
                 }
             },
             "CustomerDemographics": {
                 "kind": "EntitySet",
-                "entityType": "NorthwindModel.CustomerDemographic",
+                "entityType": {
+                    "$ref": "#/definitions/NorthwindModel.CustomerDemographic"
+                },
                 "navigationPropertyBindings": {
                     "Customers": "Customers"
                 }
             },
             "Customers": {
                 "kind": "EntitySet",
-                "entityType": "NorthwindModel.Customer",
+                "entityType": {
+                    "$ref": "#/definitions/NorthwindModel.Customer"
+                },
                 "navigationPropertyBindings": {
                     "CustomerDemographics": "CustomerDemographics",
                     "Orders": "Orders"
@@ -1890,7 +1896,9 @@
             },
             "Employees": {
                 "kind": "EntitySet",
-                "entityType": "NorthwindModel.Employee",
+                "entityType": {
+                    "$ref": "#/definitions/NorthwindModel.Employee"
+                },
                 "navigationPropertyBindings": {
                     "Employees1": "Employees",
                     "Employee1": "Employees",
@@ -1900,7 +1908,9 @@
             },
             "Order_Details": {
                 "kind": "EntitySet",
-                "entityType": "NorthwindModel.Order_Detail",
+                "entityType": {
+                    "$ref": "#/definitions/NorthwindModel.Order_Detail"
+                },
                 "navigationPropertyBindings": {
                     "Order": "Orders",
                     "Product": "Products"
@@ -1908,7 +1918,9 @@
             },
             "Orders": {
                 "kind": "EntitySet",
-                "entityType": "NorthwindModel.Order",
+                "entityType": {
+                    "$ref": "#/definitions/NorthwindModel.Order"
+                },
                 "navigationPropertyBindings": {
                     "Customer": "Customers",
                     "Employee": "Employees",
@@ -1918,7 +1930,9 @@
             },
             "Products": {
                 "kind": "EntitySet",
-                "entityType": "NorthwindModel.Product",
+                "entityType": {
+                    "$ref": "#/definitions/NorthwindModel.Product"
+                },
                 "navigationPropertyBindings": {
                     "Category": "Categories",
                     "Order_Details": "Order_Details",
@@ -1927,28 +1941,36 @@
             },
             "Regions": {
                 "kind": "EntitySet",
-                "entityType": "NorthwindModel.Region",
+                "entityType": {
+                    "$ref": "#/definitions/NorthwindModel.Region"
+                },
                 "navigationPropertyBindings": {
                     "Territories": "Territories"
                 }
             },
             "Shippers": {
                 "kind": "EntitySet",
-                "entityType": "NorthwindModel.Shipper",
+                "entityType": {
+                    "$ref": "#/definitions/NorthwindModel.Shipper"
+                },
                 "navigationPropertyBindings": {
                     "Orders": "Orders"
                 }
             },
             "Suppliers": {
                 "kind": "EntitySet",
-                "entityType": "NorthwindModel.Supplier",
+                "entityType": {
+                    "$ref": "#/definitions/NorthwindModel.Supplier"
+                },
                 "navigationPropertyBindings": {
                     "Products": "Products"
                 }
             },
             "Territories": {
                 "kind": "EntitySet",
-                "entityType": "NorthwindModel.Territory",
+                "entityType": {
+                    "$ref": "#/definitions/NorthwindModel.Territory"
+                },
                 "navigationPropertyBindings": {
                     "Employees": "Employees",
                     "Region": "Regions"
@@ -1956,63 +1978,93 @@
             },
             "Alphabetical_list_of_products": {
                 "kind": "EntitySet",
-                "entityType": "NorthwindModel.Alphabetical_list_of_product"
+                "entityType": {
+                    "$ref": "#/definitions/NorthwindModel.Alphabetical_list_of_product"
+                }
             },
             "Category_Sales_for_1997": {
                 "kind": "EntitySet",
-                "entityType": "NorthwindModel.Category_Sales_for_1997"
+                "entityType": {
+                    "$ref": "#/definitions/NorthwindModel.Category_Sales_for_1997"
+                }
             },
             "Current_Product_Lists": {
                 "kind": "EntitySet",
-                "entityType": "NorthwindModel.Current_Product_List"
+                "entityType": {
+                    "$ref": "#/definitions/NorthwindModel.Current_Product_List"
+                }
             },
             "Customer_and_Suppliers_by_Cities": {
                 "kind": "EntitySet",
-                "entityType": "NorthwindModel.Customer_and_Suppliers_by_City"
+                "entityType": {
+                    "$ref": "#/definitions/NorthwindModel.Customer_and_Suppliers_by_City"
+                }
             },
             "Invoices": {
                 "kind": "EntitySet",
-                "entityType": "NorthwindModel.Invoice"
+                "entityType": {
+                    "$ref": "#/definitions/NorthwindModel.Invoice"
+                }
             },
             "Order_Details_Extendeds": {
                 "kind": "EntitySet",
-                "entityType": "NorthwindModel.Order_Details_Extended"
+                "entityType": {
+                    "$ref": "#/definitions/NorthwindModel.Order_Details_Extended"
+                }
             },
             "Order_Subtotals": {
                 "kind": "EntitySet",
-                "entityType": "NorthwindModel.Order_Subtotal"
+                "entityType": {
+                    "$ref": "#/definitions/NorthwindModel.Order_Subtotal"
+                }
             },
             "Orders_Qries": {
                 "kind": "EntitySet",
-                "entityType": "NorthwindModel.Orders_Qry"
+                "entityType": {
+                    "$ref": "#/definitions/NorthwindModel.Orders_Qry"
+                }
             },
             "Product_Sales_for_1997": {
                 "kind": "EntitySet",
-                "entityType": "NorthwindModel.Product_Sales_for_1997"
+                "entityType": {
+                    "$ref": "#/definitions/NorthwindModel.Product_Sales_for_1997"
+                }
             },
             "Products_Above_Average_Prices": {
                 "kind": "EntitySet",
-                "entityType": "NorthwindModel.Products_Above_Average_Price"
+                "entityType": {
+                    "$ref": "#/definitions/NorthwindModel.Products_Above_Average_Price"
+                }
             },
             "Products_by_Categories": {
                 "kind": "EntitySet",
-                "entityType": "NorthwindModel.Products_by_Category"
+                "entityType": {
+                    "$ref": "#/definitions/NorthwindModel.Products_by_Category"
+                }
             },
             "Sales_by_Categories": {
                 "kind": "EntitySet",
-                "entityType": "NorthwindModel.Sales_by_Category"
+                "entityType": {
+                    "$ref": "#/definitions/NorthwindModel.Sales_by_Category"
+                }
             },
             "Sales_Totals_by_Amounts": {
                 "kind": "EntitySet",
-                "entityType": "NorthwindModel.Sales_Totals_by_Amount"
+                "entityType": {
+                    "$ref": "#/definitions/NorthwindModel.Sales_Totals_by_Amount"
+                }
             },
             "Summary_of_Sales_by_Quarters": {
                 "kind": "EntitySet",
-                "entityType": "NorthwindModel.Summary_of_Sales_by_Quarter"
+                "entityType": {
+                    "$ref": "#/definitions/NorthwindModel.Summary_of_Sales_by_Quarter"
+                }
             },
             "Summary_of_Sales_by_Years": {
                 "kind": "EntitySet",
-                "entityType": "NorthwindModel.Summary_of_Sales_by_Year"
+                "entityType": {
+                    "$ref": "#/definitions/NorthwindModel.Summary_of_Sales_by_Year"
+                }
             }
         }
     },
