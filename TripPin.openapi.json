@@ -483,9 +483,6 @@
         "Org.OData.Capabilities.V1": {
             "uri": "https://raw.githubusercontent.com/ralfhandl/odata/master/Org.OData.Capabilities.V1.openapi.json"
         },
-        "TripPin": {
-            "aliasFor": "Microsoft.OData.SampleService.Models.TripPin"
-        },
         "Microsoft.OData.SampleService.Models.TripPin": {
             "annotations": {
                 "Microsoft.OData.SampleService.Models.TripPin.DefaultContainer": {
